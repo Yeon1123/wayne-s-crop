@@ -162,6 +162,10 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav, #breadcrumb, .sidebar nav{line-height:normal;}
 #mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"FontAwesome"; font-size:10px; line-height:10px;}
 
+/* Data Analysis */
+input.data{width:500px; height:40px; margin:5px; padding:5px;}
+input.data.view{border:0;}
+
 /* Top Navigation */
 #mainav{}
 #mainav ul.clear{margin-top:3px;}

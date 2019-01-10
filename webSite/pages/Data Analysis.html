@@ -8,7 +8,7 @@ Licence URI: https://www.os-templates.com/template-terms
 -->
 <html>
 <head>
-<title>Wayne's Crop | Pages | Sidebar Left</title>
+<title>Wayne's Crop | Pages | Data Analysis</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
@@ -97,7 +97,55 @@ Licence URI: https://www.os-templates.com/template-terms
     <div class="content three_quarter"> 
       <!-- ################################################################################################ -->
       <h1>Data Analysis</h1>
-      <img class="imgr borderedbox inspace-5" src="../images/demo/imgr.gif" alt="">
+        <p style="font-size: 18px; color:black">When soil moisture is normal</p>
+        <script>
+            function temperatureN() {
+                var temperature = document.form1.inputN.value;
+                var viewdata;
+                if(temperature < 26){
+                    var raise = 26 - temperature;
+                    var viewdata = "The temperature is too low. Raise " + raise + " °C.";
+                }else if(temperature > 32){
+                    var drop = temperature - 32;
+                    var viewdata = "The temperature is too high. Drop " + drop + " °C.";
+                }else{
+                    viewdata = "This temperature is pleasant.";
+                }
+                document.form1.viewN.value = viewdata;
+            }
+        </script>
+        <form name="form1">
+            Temperature indication
+            <input type="text" class="data view" name="viewN"  readonly>
+            Current temperature(°C)
+            <input type="text" class="data" name="inputN" onkeyup="temperatureN()">
+        </form>
+
+        <p style="font-size: 18px; color:black">When soil moisture is sufficient</p>
+        <script>
+            function temperatureS() {
+                var temperature = document.form2.inputS.value;
+                var viewdata;
+                if(temperature < 35){
+                    var raise = 35 - temperature;
+                    viewdata = "The temperature is too low. Raise " + raise + " °C.";
+                }else if(temperature > 38){
+                    var drop = temperature - 38;
+                    viewdata = "The temperature is too high. Drop " + drop + " °C.";
+                }else{
+                    viewdata = "This temperature is pleasant.";
+                }
+                document.form2.viewS.value = viewdata;
+            }
+        </script>
+        <form name="form2">
+            Temperature indication
+            <input type="text" class="data view" name="viewS"  readonly>
+            Current temperature(°C)
+            <input type="text" class="data" name="inputS" onkeyup="temperatureS()">
+        </form>
+
+        <img class="imgr borderedbox inspace-5" src="../images/demo/imgr.gif" alt="">
       <p>Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur.</p>
       <p>Dapiensociis <a href="#!">temper donec auctortortis cumsan</a> et curabitur condis lorem loborttis leo. Ipsumcommodo libero nunc at in velis tincidunt pellentum tincidunt vel lorem.</p>
       <img class="imgl borderedbox inspace-5" src="../images/demo/imgl.gif" alt="">
