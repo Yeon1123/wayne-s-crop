@@ -8,10 +8,10 @@ Licence URI: https://www.os-templates.com/template-terms
 -->
 <html>
 <head>
-<title>Wayne's Crop | Pages | Data Analysis</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <title>Wayne's Crop | Pages | Data Analysis</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -46,166 +46,227 @@ Licence URI: https://www.os-templates.com/template-terms
             <!-- ################################################################################################ -->
         </header>
     </div>
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <div class="wrapper row2">
-    <div id="breadcrumb" class="hoc clear"> 
-      <!-- ################################################################################################ -->
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="#!">Pages</a></li>
-        <li><a href="Data%20Analysis.html">Data Analysis</a></li>
-      </ul>
-      <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="wrapper row2">
+        <div id="breadcrumb" class="hoc clear">
+            <!-- ################################################################################################ -->
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#!">Pages</a></li>
+                <li><a href="Data%20Analysis.html">Data Analysis</a></li>
+            </ul>
+            <!-- ################################################################################################ -->
+        </div>
     </div>
-  </div>
-  <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
 </div>
 <!-- End Top Background Image Wrapper -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
-  <main class="hoc container clear"> 
-    <!-- main body -->
-    <!-- ################################################################################################ -->
-    <div class="sidebar one_quarter first"> 
-      <!-- ################################################################################################ -->
-      <h6>Category</h6>
-      <nav class="sdb_holder">
-          <ul>
-              <li class="active"><a href="../index.html">Home</a></li>
-              <li><a href="About.html">About</a></li>
-              <li><a class="drop" href="#!">Pages</a>
-                  <ul>
-                      <li><a href="Summary%20Survey.html">Summary Survey</a></li>
-                      <li><a href="View%20Data.html">View Data</a></li>
-                      <li><a href="Data%20Analysis.html">Data Analysis</a></li>
-                      <li><a href="Eco%20System.html">Eco System</a></li>
-                      <li><a href="About%20Details.html">About Details</a></li>
-                      <li><a href="Settings.html">Settings</a></li>
-                  </ul>
-              </li>
-              <li><a href="gallery.html">Gallery</a></li>
-          </ul>
-      </nav>
-      <!-- ################################################################################################ -->
-    </div>
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <div class="content three_quarter"> 
-      <!-- ################################################################################################ -->
-      <h1>Data Analysis</h1>
-        <p style="font-size: 18px; color:black">When soil moisture is normal</p>
-        <script>
-            function temperatureN() {
-                var temperature = document.form1.inputN.value;
-                var viewdata;
-                if(temperature < 26){
-                    var raise = 26 - temperature;
-                    var viewdata = "The temperature is too low. Raise " + raise + " °C.";
-                }else if(temperature > 32){
-                    var drop = temperature - 32;
-                    var viewdata = "The temperature is too high. Drop " + drop + " °C.";
-                }else{
-                    viewdata = "This temperature is pleasant.";
-                }
-                document.form1.viewN.value = viewdata;
-            }
-        </script>
-        <form name="form1">
-            Temperature indication
-            <input type="text" class="data view" name="viewN"  readonly>
-            Current temperature(°C)
-            <input type="text" class="data" name="inputN" onkeyup="temperatureN()">
-        </form>
+    <main class="hoc container clear">
+        <!-- main body -->
+        <!-- ################################################################################################ -->
+        <div class="sidebar one_quarter first">
+            <!-- ################################################################################################ -->
+            <h6>Category</h6>
+            <nav class="sdb_holder">
+                <ul>
+                    <li class="active"><a href="../index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a class="drop" href="#!">Pages</a>
+                        <ul>
+                            <li><a href="Summary%20Survey.html">Summary Survey</a></li>
+                            <li><a href="View%20Data.html">View Data</a></li>
+                            <li><a href="Data%20Analysis.html">Data Analysis</a></li>
+                            <li><a href="Eco%20System.html">Eco System</a></li>
+                            <li><a href="About%20Details.html">About Details</a></li>
+                            <li><a href="Settings.html">Settings</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+            <!-- ################################################################################################ -->
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <div class="content three_quarter">
+            <!-- ################################################################################################ -->
+            <h1>Data Analysis</h1>
 
-        <p style="font-size: 18px; color:black">When soil moisture is sufficient</p>
-        <script>
-            function temperatureS() {
-                var temperature = document.form2.inputS.value;
-                var viewdata;
-                if(temperature < 35){
-                    var raise = 35 - temperature;
-                    viewdata = "The temperature is too low. Raise " + raise + " °C.";
-                }else if(temperature > 38){
-                    var drop = temperature - 38;
-                    viewdata = "The temperature is too high. Drop " + drop + " °C.";
-                }else{
-                    viewdata = "This temperature is pleasant.";
+            <h2 style="font-size: 19px; color:black">Number of days of germination</h2>
+            <img class="img borderedbox inspace-5" src="../images/demo/Data%20Analysis/corn%20germ.jpg" alt="">
+            <script>
+                function temperatureG() {
+                    var temperature = document.form.inputG.value;
+                    var viewdata;
+                    if(temperature < 15){
+                        var raise = 26 - temperature;
+                        viewdata = "It takes 18 to 20 days to germinate.";
+                    }else if(temperature < 20){
+                        var drop = temperature - 32;
+                        viewdata = "It takes 8 to 10 days to germinate.";
+                    }else if(temperature > 20){
+                        viewdata = "It takes 4 to 6 days to germinate.";
+                    }else{
+                        viewdata = "Invalid input.";
+                    }
+                    document.form.viewG.value = viewdata;
                 }
-                document.form2.viewS.value = viewdata;
-            }
-        </script>
-        <form name="form2">
-            Temperature indication
-            <input type="text" class="data view" name="viewS"  readonly>
-            Current temperature(°C)
-            <input type="text" class="data" name="inputS" onkeyup="temperatureS()">
-        </form>
+            </script>
+            <br><br>
+            <form name="form">
+                Temperature indication
+                <input type="text" class="data view" name="viewG"  readonly>
+                Current temperature(°C)
+                <input type="text" class="data" name="inputG" onkeyup="temperatureG()">
+            </form>
+            <br><br>
 
-        <img class="imgr borderedbox inspace-5" src="../images/demo/imgr.gif" alt="">
-      <p>Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur.</p>
-      <p>Dapiensociis <a href="#!">temper donec auctortortis cumsan</a> et curabitur condis lorem loborttis leo. Ipsumcommodo libero nunc at in velis tincidunt pellentum tincidunt vel lorem.</p>
-      <img class="imgl borderedbox inspace-5" src="../images/demo/imgl.gif" alt="">
-      <p>This is a W3C compliant free website template from <a href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a>. For full terms of use of this template please read our <a href="https://www.os-templates.com/template-terms">website template licence</a>.</p>
-      <p>You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files. For more website templates visit our <a href="https://www.os-templates.com/">free website templates</a> section.</p>
-      <p>Portortornec condimenterdum eget consectetuer condis consequam pretium pellus sed mauris enim. Puruselit mauris nulla hendimentesque elit semper nam a sapien urna sempus.</p>
-      <h1>Table(s)</h1>
-      <div class="scrollable">
-        <table>
-          <thead>
-            <tr>
-              <th>Header 1</th>
-              <th>Header 2</th>
-              <th>Header 3</th>
-              <th>Header 4</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><a href="#!">Value 1</a></td>
-              <td>Value 2</td>
-              <td>Value 3</td>
-              <td>Value 4</td>
-            </tr>
-            <tr>
-              <td>Value 5</td>
-              <td>Value 6</td>
-              <td>Value 7</td>
-              <td><a href="#!">Value 8</a></td>
-            </tr>
-            <tr>
-              <td>Value 9</td>
-              <td>Value 10</td>
-              <td>Value 11</td>
-              <td>Value 12</td>
-            </tr>
-            <tr>
-              <td>Value 13</td>
-              <td><a href="#!">Value 14</a></td>
-              <td>Value 15</td>
-              <td>Value 16</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    <!-- ################################################################################################ -->
-    <!-- / main body -->
-    <div class="clear"></div>
-  </main>
+            <h2 style="font-size: 19px; color:black">Growth temperature</h2>
+            <p style="font-size: 15px; color:black">When soil moisture is normal</p>
+            <img class="img borderedbox inspace-5" src="../images/demo/Data%20Analysis/norm%20mois.jpg" alt="">
+            <script>
+                function temperatureN() {
+                    var temperature = document.form1.inputN.value;
+                    var viewdata;
+                    if(temperature < 26){
+                        var raise = 26 - temperature;
+                        viewdata = "The temperature is too low. Raise " + raise + " °C.";
+                    }else if(temperature > 32){
+                        var drop = temperature - 32;
+                        viewdata = "The temperature is too high. Drop " + drop + " °C.";
+                    }else if(temperature >= 26 && temperature <= 32){
+                        viewdata = "This temperature is pleasant.";
+                    }else{
+                        viewdata = "Invalid input.";
+                    }
+                    document.form1.viewN.value = viewdata;
+                }
+            </script>
+            <br><br>
+            <form name="form1">
+                Temperature indication
+                <input type="text" class="data view" name="viewN"  readonly>
+                Current temperature(°C)
+                <input type="text" class="data" name="inputN" onkeyup="temperatureN()">
+            </form>
+            <br>
+
+            <p style="font-size: 15px; color:black">When soil moisture is sufficient</p>
+            <img class="img borderedbox inspace-5" src="../images/demo/Data%20Analysis/suff%20mois.jpg" alt="">
+            <script>
+                function temperatureS() {
+                    var temperature = document.form2.inputS.value;
+                    var viewdata;
+                    if(temperature < 35){
+                        var raise = 35 - temperature;
+                        viewdata = "The temperature is too low. Raise " + raise + " °C.";
+                    }else if(temperature > 38){
+                        var drop = temperature - 38;
+                        viewdata = "The temperature is too high. Drop " + drop + " °C.";
+                    }else if(temperature >= 35 && temperature <= 38){
+                        viewdata = "This temperature is pleasant.";
+                    }else{
+                        viewdata = "Invalid input.";
+                    }
+                    document.form2.viewS.value = viewdata;
+                }
+            </script>
+            <br><br>
+            <form name="form2">
+                Temperature indication
+                <input type="text" class="data view" name="viewS"  readonly>
+                Current temperature(°C)
+                <input type="text" class="data" name="inputS" onkeyup="temperatureS()">
+            </form>
+            <br><br>
+
+            <h2 style="font-size: 19px; color:black">Growth moisture</h2>
+            <p style="font-size: 15px; color:black">When it bloom(about four or five days deep)</p>
+            <img class="img borderedbox inspace-5" src="../images/demo/Data%20Analysis/corn%20bloom.jpg" alt="">
+            <script>
+                function moistureB() {
+                    var moisture = document.form3.inputB.value;
+                    var viewdata;
+                    if(moisture < 150){
+                        var raise = 150 - moisture;
+                        viewdata = "The moisture is too low. Need " + raise + " mm more.";
+                    }else if(moisture >= 150){
+                        viewdata = "This moisture is pleasant.";
+                    }else{
+                        viewdata = "Invalid input.";
+                    }
+                    document.form3.viewB.value = viewdata;
+                }
+            </script>
+            <br><br>
+            <form name="form3">
+                Moisture indication
+                <input type="text" class="data view" name="viewB"  readonly>
+                Current moisture(mm per month)
+                <input type="text" class="data" name="inputB" onkeyup="moistureB()">
+            </form>
+            <br>
+
+            <p style="font-size: 15px; color:black">When it's not a bloomer</p>
+            <img class="img borderedbox inspace-5" src="../images/demo/Data%20Analysis/not%20bloom.jpg" alt="">
+            <script>
+                function moistureM() {
+                    var moisture = document.form4.inputM.value;
+                    var viewdata;
+                    if(moisture < 90){
+                        var raise = 90 - moisture;
+                        viewdata = "The moisture is too low. Need " + raise + " mm more.";
+                    }else if(moisture > 120){
+                        var drop = moisture - 120;
+                        viewdata = "The moisture is too high. Give " + drop + " mm less.";
+                    }else if(moisture >= 90 && moisture <= 120){
+                        viewdata = "This moisture is pleasant.";
+                    }else{
+                        viewdata = "Invalid input.";
+                    }
+                    document.form4.viewM.value = viewdata;
+                }
+            </script>
+            <br><br>
+            <form name="form4">
+                Moisture indication
+                <input type="text" class="data view" name="viewM"  readonly>
+                Current moisture(mm per month)
+                <input type="text" class="data" name="inputM" onkeyup="moistureM()">
+            </form>
+            <br>
+
+
+            <p style="font-size: 15px; color:black">When growing in a greenhouse</p>
+            <img class="img borderedbox inspace-5" src="../images/demo/Data%20Analysis/greenhouse.jpg" alt="">
+            <br><br>
+            <form name="form5">
+                Moisture indication
+                <input type="text" class="data view" name="viewM"  value="Give it 20 to 30 mm of water every week."readonly>
+            </form>
+
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- / main body -->
+        <div class="clear"></div>
+    </main>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row5">
-  <div id="copyright" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="../index.html">Wayne's Crop</a></p>
-    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
-    <!-- ################################################################################################ -->
-  </div>
+    <div id="copyright" class="hoc clear">
+        <!-- ################################################################################################ -->
+        <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="../index.html">Wayne's Crop</a></p>
+        <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+        <!-- ################################################################################################ -->
+    </div>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
