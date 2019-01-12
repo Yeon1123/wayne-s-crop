@@ -312,6 +312,14 @@ input:focus, textarea:focus, *:required:focus{border-color:#96B2B6;}
 .split .box{background-color:inherit;}
 .split .box .testimonial blockquote::before{color:rgba(255,255,255,.2);}
 
+/* Post */
+.post{border: 1px solid black; height: 226px; padding:12px;}
+.post:hover{border: 2px solid rgba(0,0,0,.5); background-color: #FFDDDD;}
+.post > .img{float:left; width:30%;}
+.a{float:left; width:50%; height:200px; display:table;}
+.b{display:table-cell; vertical-align: middle}
+.post h4{font-size: 18px; color:black}
+.post p{font-size: 12px;}
 
 /* Social */
 #social input, #social button{color:#FFFFFF; background-color:#050505;}
