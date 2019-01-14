@@ -321,6 +321,10 @@ input:focus, textarea:focus, *:required:focus{border-color:#96B2B6;}
 .post h4{font-size: 18px; color:black}
 .post p{font-size: 12px;}
 
+/* R Code */
+.code{padding:0 6px 0 10px; white-space:pre; line-height:130%;}
+.num{line-height:130%}
+
 /* Social */
 #social input, #social button{color:#FFFFFF; background-color:#050505;}
 #social button{color:#96B2B6;}
