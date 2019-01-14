@@ -100,24 +100,6 @@ Licence URI: https://www.os-templates.com/template-terms
 
             <h2 style="font-size: 19px; color:black">Number of days of germination</h2>
             <img class="img borderedbox inspace-5" src="../images/demo/Data%20Analysis/corn%20germ.jpg" alt="">
-            <script>
-                function temperatureG() {
-                    var temperature = document.form.inputG.value;
-                    var viewdata;
-                    if(temperature < 15){
-                        var raise = 26 - temperature;
-                        viewdata = "It takes 18 to 20 days to germinate.";
-                    }else if(temperature < 20){
-                        var drop = temperature - 32;
-                        viewdata = "It takes 8 to 10 days to germinate.";
-                    }else if(temperature > 20){
-                        viewdata = "It takes 4 to 6 days to germinate.";
-                    }else{
-                        viewdata = "Invalid input.";
-                    }
-                    document.form.viewG.value = viewdata;
-                }
-            </script>
             <br><br>
             <form name="form">
                 Temperature indication
@@ -130,24 +112,6 @@ Licence URI: https://www.os-templates.com/template-terms
             <h2 style="font-size: 19px; color:black">Growth temperature</h2>
             <p style="font-size: 15px; color:black">When soil moisture is normal</p>
             <img class="img borderedbox inspace-5" src="../images/demo/Data%20Analysis/norm%20mois.jpg" alt="">
-            <script>
-                function temperatureN() {
-                    var temperature = document.form1.inputN.value;
-                    var viewdata;
-                    if(temperature < 26){
-                        var raise = 26 - temperature;
-                        viewdata = "The temperature is too low. Raise " + raise + " °C.";
-                    }else if(temperature > 32){
-                        var drop = temperature - 32;
-                        viewdata = "The temperature is too high. Drop " + drop + " °C.";
-                    }else if(temperature >= 26 && temperature <= 32){
-                        viewdata = "This temperature is pleasant.";
-                    }else{
-                        viewdata = "Invalid input.";
-                    }
-                    document.form1.viewN.value = viewdata;
-                }
-            </script>
             <br><br>
             <form name="form1">
                 Temperature indication
@@ -159,24 +123,6 @@ Licence URI: https://www.os-templates.com/template-terms
 
             <p style="font-size: 15px; color:black">When soil moisture is sufficient</p>
             <img class="img borderedbox inspace-5" src="../images/demo/Data%20Analysis/suff%20mois.jpg" alt="">
-            <script>
-                function temperatureS() {
-                    var temperature = document.form2.inputS.value;
-                    var viewdata;
-                    if(temperature < 35){
-                        var raise = 35 - temperature;
-                        viewdata = "The temperature is too low. Raise " + raise + " °C.";
-                    }else if(temperature > 38){
-                        var drop = temperature - 38;
-                        viewdata = "The temperature is too high. Drop " + drop + " °C.";
-                    }else if(temperature >= 35 && temperature <= 38){
-                        viewdata = "This temperature is pleasant.";
-                    }else{
-                        viewdata = "Invalid input.";
-                    }
-                    document.form2.viewS.value = viewdata;
-                }
-            </script>
             <br><br>
             <form name="form2">
                 Temperature indication
@@ -189,21 +135,6 @@ Licence URI: https://www.os-templates.com/template-terms
             <h2 style="font-size: 19px; color:black">Growth moisture</h2>
             <p style="font-size: 15px; color:black">When it bloom(about four or five days deep)</p>
             <img class="img borderedbox inspace-5" src="../images/demo/Data%20Analysis/corn%20bloom.jpg" alt="">
-            <script>
-                function moistureB() {
-                    var moisture = document.form3.inputB.value;
-                    var viewdata;
-                    if(moisture < 150){
-                        var raise = 150 - moisture;
-                        viewdata = "The moisture is too low. Need " + raise + " mm more.";
-                    }else if(moisture >= 150){
-                        viewdata = "This moisture is pleasant.";
-                    }else{
-                        viewdata = "Invalid input.";
-                    }
-                    document.form3.viewB.value = viewdata;
-                }
-            </script>
             <br><br>
             <form name="form3">
                 Moisture indication
@@ -215,24 +146,6 @@ Licence URI: https://www.os-templates.com/template-terms
 
             <p style="font-size: 15px; color:black">When it's not a bloomer</p>
             <img class="img borderedbox inspace-5" src="../images/demo/Data%20Analysis/not%20bloom.jpg" alt="">
-            <script>
-                function moistureM() {
-                    var moisture = document.form4.inputM.value;
-                    var viewdata;
-                    if(moisture < 90){
-                        var raise = 90 - moisture;
-                        viewdata = "The moisture is too low. Need " + raise + " mm more.";
-                    }else if(moisture > 120){
-                        var drop = moisture - 120;
-                        viewdata = "The moisture is too high. Give " + drop + " mm less.";
-                    }else if(moisture >= 90 && moisture <= 120){
-                        viewdata = "This moisture is pleasant.";
-                    }else{
-                        viewdata = "Invalid input.";
-                    }
-                    document.form4.viewM.value = viewdata;
-                }
-            </script>
             <br><br>
             <form name="form4">
                 Moisture indication
@@ -276,5 +189,6 @@ Licence URI: https://www.os-templates.com/template-terms
 <script src="../layout/scripts/jquery.min.js"></script>
 <script src="../layout/scripts/jquery.backtotop.js"></script>
 <script src="../layout/scripts/jquery.mobilemenu.js"></script>
+<script src="../layout/scripts/DataAnalysis.js"></script>
 </body>
 </html>
