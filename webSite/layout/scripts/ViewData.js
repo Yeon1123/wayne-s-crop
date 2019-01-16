@@ -1,10 +1,19 @@
 var clicks = 0;
-function code(num){
-    var num = num;
+function code(){
     clicks += 1;
     if(clicks%2 == 1){
-        document.getElementsByClassName("colorscripter-code")[num].style.display="block";
+        document.getElementsByClassName("colorscripter-code")[0].style.display="block";
     }else{
-        document.getElementsByClassName("colorscripter-code")[num].style.display="none";
+        document.getElementsByClassName("colorscripter-code")[0].style.display="none";
+    }
+}
+
+var clicking = 0;
+function Rcode(id){
+    clicking += 1;
+    if(clicking%2 == 1){
+        document.getElementById(id).style.display="block";
+    }else{
+        document.getElementById(id).style.display="none";
     }
 }
