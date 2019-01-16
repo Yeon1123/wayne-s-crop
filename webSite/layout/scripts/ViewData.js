@@ -1,15 +1,10 @@
 var clicks = 0;
-function rcode(){
+function code(num){
+    var num = num;
     clicks += 1;
     if(clicks%2 == 1){
-        block();
+        document.getElementsByClassName("colorscripter-code")[num].style.display="block";
     }else{
-        none();
+        document.getElementsByClassName("colorscripter-code")[num].style.display="none";
     }
-}
-function none(){
-    document.getElementsByClassName("colorscripter-code")[0].style.display="none";
-}
-function block(){
-    document.getElementsByClassName("colorscripter-code")[0].style.display="block";
 }

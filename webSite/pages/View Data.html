@@ -1,3 +1,4 @@
+<!--View LoRa Data-->
 <!DOCTYPE html>
 <!--
 Template Name: Pobabini
@@ -75,8 +76,6 @@ Licence URI: https://www.os-templates.com/template-terms
             <h6>Category</h6>
             <nav class="sdb_holder">
                 <ul>
-                    <li class="active"><a href="../index.html">Home</a></li>
-                    <li><a href="About.html">About</a></li>
                     <li><a class="drop" href="#!">Pages</a>
                         <ul>
                             <li><a href="Summary%20Survey.html">Summary Survey</a></li>
@@ -97,60 +96,935 @@ Licence URI: https://www.os-templates.com/template-terms
         <div class="content three_quarter">
             <!-- ################################################################################################ -->
             <h1>View Data</h1>
-            <img class="imgr borderedbox inspace-5" src="../images/demo/imgr.gif" alt="">
-            <p>Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur.</p>
-            <p>Dapiensociis <a href="#!">temper donec auctortortis cumsan</a> et curabitur condis lorem loborttis leo. Ipsumcommodo libero nunc at in velis tincidunt pellentum tincidunt vel lorem.</p>
-            <img class="imgl borderedbox inspace-5" src="../images/demo/imgl.gif" alt="">
-            <p>This is a W3C compliant free website template from <a href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a>. For full terms of use of this template please read our <a href="https://www.os-templates.com/template-terms">website template licence</a>.</p>
-            <p>You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files. For more website templates visit our <a href="https://www.os-templates.com/">free website templates</a> section.</p>
-            <p>Portortornec condimenterdum eget consectetuer condis consequam pretium pellus sed mauris enim. Puruselit mauris nulla hendimentesque elit semper nam a sapien urna sempus.</p>
-            <h1>Table(s)</h1>
+            <p>This page shows the data values communicated to LoRa. It shows a table of raw data, graphs, and R source code. This is a test piece from K-SQUARE.</p>
+            <br>
+
+            <!--Table-->
+            <h1>Collected Raw Data Table</h1>
             <div class="scrollable">
-                <table>
-                    <thead>
-                    <tr>
-                        <th>Header 1</th>
-                        <th>Header 2</th>
-                        <th>Header 3</th>
-                        <th>Header 4</th>
+                <table border=0 cellpadding=0 cellspacing=0 width=429 style='border-collapse: collapse;table-layout:fixed;width:322pt; margin:auto;'>
+                    <col class=xl66 width=45 style='mso-width-source:userset;mso-width-alt:1433; width:34pt'>
+                    <col width=195 style='mso-width-source:userset;mso-width-alt:6246;width:170pt'>
+                    <col width=106 style='mso-width-source:userset;mso-width-alt:3404;width:90pt'>
+                    <col width=83 style='mso-width-source:userset;mso-width-alt:2662;width:72pt'>
+                    <tr height=23 style='height:17.4pt'>
+                        <th height=23 class=xl66 width=45 style='height:17.4pt;width:34pt'>id</th>
+                        <th class=xl65 width=195 style='width:170pt'>created_at</th>
+                        <th class=xl65 width=106 style='width:90pt'>temperature</th>
+                        <th class=xl65 width=83 style='width:72pt'>humidity</th>
                     </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td><a href="#!">Value 1</a></td>
-                        <td>Value 2</td>
-                        <td>Value 3</td>
-                        <td>Value 4</td>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>1</td>
+                        <td>2019-01-11 20:48:38 UTC</td>
+                        <td align=right>24</td>
+                        <td align=right>25</td>
                     </tr>
-                    <tr>
-                        <td>Value 5</td>
-                        <td>Value 6</td>
-                        <td>Value 7</td>
-                        <td><a href="#!">Value 8</a></td>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>2</td>
+                        <td>2019-01-11 20:49:09 UTC</td>
+                        <td align=right>24</td>
+                        <td align=right>26</td>
                     </tr>
-                    <tr>
-                        <td>Value 9</td>
-                        <td>Value 10</td>
-                        <td>Value 11</td>
-                        <td>Value 12</td>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>3</td>
+                        <td>2019-01-11 20:49:40 UTC</td>
+                        <td align=right>24</td>
+                        <td align=right>25</td>
                     </tr>
-                    <tr>
-                        <td>Value 13</td>
-                        <td><a href="#!">Value 14</a></td>
-                        <td>Value 15</td>
-                        <td>Value 16</td>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>4</td>
+                        <td>2019-01-11 20:50:10 UTC</td>
+                        <td align=right>24</td>
+                        <td align=right>26</td>
                     </tr>
-                    </tbody>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>5</td>
+                        <td>2019-01-11 20:50:41 UTC</td>
+                        <td align=right>24</td>
+                        <td align=right>26</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>6</td>
+                        <td>2019-01-11 20:51:11 UTC</td>
+                        <td align=right>24</td>
+                        <td align=right>26</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>7</td>
+                        <td>2019-01-11 20:51:42 UTC</td>
+                        <td align=right>24</td>
+                        <td align=right>26</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>8</td>
+                        <td>2019-01-11 20:52:12 UTC</td>
+                        <td align=right>24</td>
+                        <td align=right>26</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>9</td>
+                        <td>2019-01-11 20:52:43 UTC</td>
+                        <td align=right>24</td>
+                        <td align=right>26</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>10</td>
+                        <td>2019-01-11 20:53:13 UTC</td>
+                        <td align=right>24</td>
+                        <td align=right>25</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>11</td>
+                        <td>2019-01-11 20:53:44 UTC</td>
+                        <td align=right>24</td>
+                        <td align=right>27</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>12</td>
+                        <td>2019-01-11 20:54:15 UTC</td>
+                        <td align=right>24</td>
+                        <td align=right>29</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>13</td>
+                        <td>2019-01-11 20:54:45 UTC</td>
+                        <td align=right>25</td>
+                        <td align=right>25</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>14</td>
+                        <td>2019-01-11 20:55:48 UTC</td>
+                        <td align=right>25</td>
+                        <td align=right>24</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>15</td>
+                        <td>2019-01-11 20:56:19 UTC</td>
+                        <td align=right>26</td>
+                        <td align=right>50</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>16</td>
+                        <td>2019-01-11 20:56:50 UTC</td>
+                        <td align=right>26</td>
+                        <td align=right>24</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>17</td>
+                        <td>2019-01-11 20:57:20 UTC</td>
+                        <td align=right>26</td>
+                        <td align=right>25</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>18</td>
+                        <td>2019-01-11 20:57:51 UTC</td>
+                        <td align=right>26</td>
+                        <td align=right>25</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>19</td>
+                        <td>2019-01-11 20:58:21 UTC</td>
+                        <td align=right>26</td>
+                        <td align=right>25</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>20</td>
+                        <td>2019-01-11 20:58:52 UTC</td>
+                        <td align=right>25</td>
+                        <td align=right>25</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>21</td>
+                        <td>2019-01-11 20:59:22 UTC</td>
+                        <td align=right>25</td>
+                        <td align=right>25</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>22</td>
+                        <td>2019-01-11 20:59:53 UTC</td>
+                        <td align=right>25</td>
+                        <td align=right>25</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>23</td>
+                        <td>2019-01-11 21:00:23 UTC</td>
+                        <td align=right>25</td>
+                        <td align=right>28</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>24</td>
+                        <td>2019-01-11 21:00:54 UTC</td>
+                        <td align=right>25</td>
+                        <td align=right>24</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>25</td>
+                        <td>2019-01-11 21:01:24 UTC</td>
+                        <td align=right>25</td>
+                        <td align=right>25</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>26</td>
+                        <td>2019-01-14 18:44:19 UTC</td>
+                        <td align=right>23</td>
+                        <td align=right>20</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>27</td>
+                        <td>2019-01-14 18:44:50 UTC</td>
+                        <td align=right>24</td>
+                        <td align=right>30</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>28</td>
+                        <td>2019-01-14 18:46:26 UTC</td>
+                        <td align=right>20</td>
+                        <td align=right>22</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>29</td>
+                        <td>2019-01-14 18:54:24 UTC</td>
+                        <td align=right>16</td>
+                        <td align=right>62</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>30</td>
+                        <td>2019-01-14 18:54:54 UTC</td>
+                        <td align=right>16</td>
+                        <td align=right>59</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>31</td>
+                        <td>2019-01-14 18:55:11 UTC</td>
+                        <td align=right>17</td>
+                        <td align=right>67</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>32</td>
+                        <td>2019-01-14 18:55:26 UTC</td>
+                        <td align=right>17</td>
+                        <td align=right>67</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>33</td>
+                        <td>2019-01-14 18:55:41 UTC</td>
+                        <td align=right>18</td>
+                        <td align=right>68</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>34</td>
+                        <td>2019-01-14 18:55:58 UTC</td>
+                        <td align=right>18</td>
+                        <td align=right>67</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>35</td>
+                        <td>2019-01-14 18:56:13 UTC</td>
+                        <td align=right>18</td>
+                        <td align=right>68</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>36</td>
+                        <td>2019-01-14 18:56:28 UTC</td>
+                        <td align=right>18</td>
+                        <td align=right>68</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>37</td>
+                        <td>2019-01-14 18:56:44 UTC</td>
+                        <td align=right>18</td>
+                        <td align=right>66</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>38</td>
+                        <td>2019-01-14 19:01:53 UTC</td>
+                        <td align=right>12</td>
+                        <td align=right>78</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>39</td>
+                        <td>2019-01-14 19:02:08 UTC</td>
+                        <td align=right>12</td>
+                        <td align=right>76</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>40</td>
+                        <td>2019-01-14 19:02:23 UTC</td>
+                        <td align=right>13</td>
+                        <td align=right>75</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>41</td>
+                        <td>2019-01-14 19:02:38 UTC</td>
+                        <td align=right>13</td>
+                        <td align=right>75</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>42</td>
+                        <td>2019-01-14 19:02:53 UTC</td>
+                        <td align=right>15</td>
+                        <td align=right>75</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>43</td>
+                        <td>2019-01-14 19:03:09 UTC</td>
+                        <td align=right>15</td>
+                        <td align=right>75</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>44</td>
+                        <td>2019-01-14 19:03:26 UTC</td>
+                        <td align=right>14</td>
+                        <td align=right>72</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>45</td>
+                        <td>2019-01-14 19:03:41 UTC</td>
+                        <td align=right>15</td>
+                        <td align=right>69</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>46</td>
+                        <td>2019-01-14 19:06:45 UTC</td>
+                        <td align=right>19</td>
+                        <td align=right>62</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>47</td>
+                        <td>2019-01-14 19:07:06 UTC</td>
+                        <td align=right>20</td>
+                        <td align=right>49</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>48</td>
+                        <td>2019-01-14 19:07:27 UTC</td>
+                        <td align=right>20</td>
+                        <td align=right>42</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>49</td>
+                        <td>2019-01-14 19:07:48 UTC</td>
+                        <td align=right>20</td>
+                        <td align=right>42</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>50</td>
+                        <td>2019-01-14 19:08:07 UTC</td>
+                        <td align=right>20</td>
+                        <td align=right>43</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>51</td>
+                        <td>2019-01-14 19:08:28 UTC</td>
+                        <td align=right>20</td>
+                        <td align=right>36</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>52</td>
+                        <td>2019-01-14 19:08:49 UTC</td>
+                        <td align=right>20</td>
+                        <td align=right>32</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>53</td>
+                        <td>2019-01-14 19:09:10 UTC</td>
+                        <td align=right>20</td>
+                        <td align=right>32</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>54</td>
+                        <td>2019-01-14 19:09:31 UTC</td>
+                        <td align=right>20</td>
+                        <td align=right>33</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>55</td>
+                        <td>2019-01-14 19:09:52 UTC</td>
+                        <td align=right>20</td>
+                        <td align=right>21</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>56</td>
+                        <td>2019-01-14 19:10:13 UTC</td>
+                        <td align=right>20</td>
+                        <td align=right>20</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>57</td>
+                        <td>2019-01-14 19:10:34 UTC</td>
+                        <td align=right>20</td>
+                        <td align=right>20</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>58</td>
+                        <td>2019-01-14 19:10:55 UTC</td>
+                        <td align=right>20</td>
+                        <td align=right>19</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>59</td>
+                        <td>2019-01-14 19:11:16 UTC</td>
+                        <td align=right>20</td>
+                        <td align=right>18</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>60</td>
+                        <td>2019-01-14 19:11:37 UTC</td>
+                        <td align=right>19</td>
+                        <td align=right>18</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>61</td>
+                        <td>2019-01-14 19:11:58 UTC</td>
+                        <td align=right>19</td>
+                        <td align=right>18</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>62</td>
+                        <td>2019-01-14 19:12:19 UTC</td>
+                        <td align=right>19</td>
+                        <td align=right>18</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>63</td>
+                        <td>2019-01-14 19:12:40 UTC</td>
+                        <td align=right>19</td>
+                        <td align=right>18</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>64</td>
+                        <td>2019-01-14 19:13:02 UTC</td>
+                        <td align=right>18</td>
+                        <td align=right>19</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>65</td>
+                        <td>2019-01-14 19:15:07 UTC</td>
+                        <td align=right>9</td>
+                        <td align=right>24</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>66</td>
+                        <td>2019-01-14 19:15:28 UTC</td>
+                        <td align=right>9</td>
+                        <td align=right>25</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>67</td>
+                        <td>2019-01-14 19:15:49 UTC</td>
+                        <td align=right>10</td>
+                        <td align=right>25</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>68</td>
+                        <td>2019-01-14 19:17:21 UTC</td>
+                        <td align=right>8</td>
+                        <td align=right>26</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>69</td>
+                        <td>2019-01-14 19:17:41 UTC</td>
+                        <td align=right>8</td>
+                        <td align=right>26</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>70</td>
+                        <td>2019-01-14 19:18:02 UTC</td>
+                        <td align=right>10</td>
+                        <td align=right>26</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>71</td>
+                        <td>2019-01-14 19:18:24 UTC</td>
+                        <td align=right>12</td>
+                        <td align=right>25</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>72</td>
+                        <td>2019-01-14 19:18:45 UTC</td>
+                        <td align=right>13</td>
+                        <td align=right>24</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>73</td>
+                        <td>2019-01-14 19:19:06 UTC</td>
+                        <td align=right>14</td>
+                        <td align=right>24</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>74</td>
+                        <td>2019-01-14 19:19:27 UTC</td>
+                        <td align=right>15</td>
+                        <td align=right>23</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>75</td>
+                        <td>2019-01-14 19:19:50 UTC</td>
+                        <td align=right>17</td>
+                        <td align=right>22</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>76</td>
+                        <td>2019-01-14 19:20:11 UTC</td>
+                        <td align=right>18</td>
+                        <td align=right>38</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>77</td>
+                        <td>2019-01-14 19:20:32 UTC</td>
+                        <td align=right>20</td>
+                        <td align=right>37</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>78</td>
+                        <td>2019-01-14 19:20:54 UTC</td>
+                        <td align=right>21</td>
+                        <td align=right>36</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>79</td>
+                        <td>2019-01-14 19:21:15 UTC</td>
+                        <td align=right>21</td>
+                        <td align=right>19</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>80</td>
+                        <td>2019-01-14 19:21:39 UTC</td>
+                        <td align=right>19</td>
+                        <td align=right>20</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>81</td>
+                        <td>2019-01-14 19:22:02 UTC</td>
+                        <td align=right>15</td>
+                        <td align=right>23</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>82</td>
+                        <td>2019-01-14 19:22:23 UTC</td>
+                        <td align=right>13</td>
+                        <td align=right>24</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>83</td>
+                        <td>2019-01-14 19:22:39 UTC</td>
+                        <td align=right>12</td>
+                        <td align=right>25</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>84</td>
+                        <td>2019-01-14 19:23:02 UTC</td>
+                        <td align=right>9</td>
+                        <td align=right>26</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>85</td>
+                        <td>2019-01-14 19:23:23 UTC</td>
+                        <td align=right>7</td>
+                        <td align=right>27</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>86</td>
+                        <td>2019-01-14 19:23:44 UTC</td>
+                        <td align=right>5</td>
+                        <td align=right>43</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>87</td>
+                        <td>2019-01-14 19:24:05 UTC</td>
+                        <td align=right>6</td>
+                        <td align=right>51</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>88</td>
+                        <td>2019-01-14 19:24:26 UTC</td>
+                        <td align=right>8</td>
+                        <td align=right>54</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>89</td>
+                        <td>2019-01-14 19:24:47 UTC</td>
+                        <td align=right>10</td>
+                        <td align=right>54</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>90</td>
+                        <td>2019-01-14 19:25:08 UTC</td>
+                        <td align=right>11</td>
+                        <td align=right>53</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>91</td>
+                        <td>2019-01-14 19:28:52 UTC</td>
+                        <td align=right>2</td>
+                        <td align=right>57</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>92</td>
+                        <td>2019-01-14 19:29:13 UTC</td>
+                        <td align=right>4</td>
+                        <td align=right>59</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>93</td>
+                        <td>2019-01-14 19:29:47 UTC</td>
+                        <td align=right>7</td>
+                        <td align=right>65</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>94</td>
+                        <td>2019-01-14 19:31:32 UTC</td>
+                        <td align=right>5</td>
+                        <td align=right>41</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>95</td>
+                        <td>2019-01-14 19:31:58 UTC</td>
+                        <td align=right>5</td>
+                        <td align=right>28</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>96</td>
+                        <td>2019-01-14 19:32:21 UTC</td>
+                        <td align=right>4</td>
+                        <td align=right>27</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>97</td>
+                        <td>2019-01-14 19:32:37 UTC</td>
+                        <td align=right>3</td>
+                        <td align=right>27</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>98</td>
+                        <td>2019-01-14 19:33:00 UTC</td>
+                        <td align=right>3</td>
+                        <td align=right>27</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>99</td>
+                        <td>2019-01-14 19:33:15 UTC</td>
+                        <td align=right>2</td>
+                        <td align=right>28</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>100</td>
+                        <td>2019-01-14 19:33:39 UTC</td>
+                        <td align=right>1</td>
+                        <td align=right>28</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>101</td>
+                        <td>2019-01-14 19:33:55 UTC</td>
+                        <td align=right>1</td>
+                        <td align=right>27</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>102</td>
+                        <td>2019-01-14 19:34:16 UTC</td>
+                        <td align=right>1</td>
+                        <td align=right>29</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>103</td>
+                        <td>2019-01-14 19:34:39 UTC</td>
+                        <td align=right>1</td>
+                        <td align=right>30</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>104</td>
+                        <td>2019-01-14 19:35:03 UTC</td>
+                        <td align=right>1</td>
+                        <td align=right>30</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>105</td>
+                        <td>2019-01-14 19:35:24 UTC</td>
+                        <td align=right>1</td>
+                        <td align=right>30</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>106</td>
+                        <td>2019-01-14 19:35:45 UTC</td>
+                        <td align=right>2</td>
+                        <td align=right>53</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>107</td>
+                        <td>2019-01-14 19:36:06 UTC</td>
+                        <td align=right>4</td>
+                        <td align=right>58</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>108</td>
+                        <td>2019-01-14 19:36:27 UTC</td>
+                        <td align=right>5</td>
+                        <td align=right>63</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>109</td>
+                        <td>2019-01-14 19:36:48 UTC</td>
+                        <td align=right>7</td>
+                        <td align=right>66</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>110</td>
+                        <td>2019-01-14 19:37:09 UTC</td>
+                        <td align=right>8</td>
+                        <td align=right>69</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>111</td>
+                        <td>2019-01-14 19:37:30 UTC</td>
+                        <td align=right>9</td>
+                        <td align=right>68</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>112</td>
+                        <td>2019-01-14 19:42:55 UTC</td>
+                        <td align=right>1</td>
+                        <td align=right>27</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>113</td>
+                        <td>2019-01-14 19:43:15 UTC</td>
+                        <td align=right>2</td>
+                        <td align=right>27</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>114</td>
+                        <td>2019-01-14 19:43:36 UTC</td>
+                        <td align=right>4</td>
+                        <td align=right>27</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>115</td>
+                        <td>2019-01-14 19:43:58 UTC</td>
+                        <td align=right>7</td>
+                        <td align=right>27</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>116</td>
+                        <td>2019-01-14 19:44:19 UTC</td>
+                        <td align=right>8</td>
+                        <td align=right>27</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>117</td>
+                        <td>2019-01-14 19:44:40 UTC</td>
+                        <td align=right>10</td>
+                        <td align=right>24</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>118</td>
+                        <td>2019-01-14 19:45:01 UTC</td>
+                        <td align=right>11</td>
+                        <td align=right>23</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>119</td>
+                        <td>2019-01-14 19:45:25 UTC</td>
+                        <td align=right>12</td>
+                        <td align=right>22</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>120</td>
+                        <td>2019-01-14 19:45:48 UTC</td>
+                        <td align=right>12</td>
+                        <td align=right>22</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>121</td>
+                        <td>2019-01-14 19:46:04 UTC</td>
+                        <td align=right>11</td>
+                        <td align=right>22</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>122</td>
+                        <td>2019-01-14 19:46:25 UTC</td>
+                        <td align=right>10</td>
+                        <td align=right>23</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>123</td>
+                        <td>2019-01-14 19:46:41 UTC</td>
+                        <td align=right>10</td>
+                        <td align=right>23</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>124</td>
+                        <td>2019-01-14 19:47:07 UTC</td>
+                        <td align=right>7</td>
+                        <td align=right>24</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>125</td>
+                        <td>2019-01-14 19:47:33 UTC</td>
+                        <td align=right>5</td>
+                        <td align=right>26</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>126</td>
+                        <td>2019-01-14 19:48:09 UTC</td>
+                        <td align=right>2</td>
+                        <td align=right>28</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>127</td>
+                        <td>2019-01-14 19:48:35 UTC</td>
+                        <td align=right>1</td>
+                        <td align=right>28</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>128</td>
+                        <td>2019-01-14 19:48:51 UTC</td>
+                        <td align=right>1</td>
+                        <td align=right>28</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>129</td>
+                        <td>2019-01-14 19:51:22 UTC</td>
+                        <td align=right>10</td>
+                        <td align=right>26</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>130</td>
+                        <td>2019-01-14 19:51:38 UTC</td>
+                        <td align=right>10</td>
+                        <td align=right>26</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>131</td>
+                        <td>2019-01-14 19:51:59 UTC</td>
+                        <td align=right>9</td>
+                        <td align=right>26</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>132</td>
+                        <td>2019-01-14 19:52:20 UTC</td>
+                        <td align=right>9</td>
+                        <td align=right>26</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>133</td>
+                        <td>2019-01-14 19:52:41 UTC</td>
+                        <td align=right>8</td>
+                        <td align=right>27</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>134</td>
+                        <td>2019-01-14 19:53:02 UTC</td>
+                        <td align=right>10</td>
+                        <td align=right>26</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>135</td>
+                        <td>2019-01-14 19:53:23 UTC</td>
+                        <td align=right>11</td>
+                        <td align=right>25</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>136</td>
+                        <td>2019-01-14 19:53:44 UTC</td>
+                        <td align=right>13</td>
+                        <td align=right>38</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>137</td>
+                        <td>2019-01-14 19:54:05 UTC</td>
+                        <td align=right>14</td>
+                        <td align=right>45</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>138</td>
+                        <td>2019-01-14 21:10:26 UTC</td>
+                        <td align=right>25</td>
+                        <td align=right>18</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>139</td>
+                        <td>2019-01-14 21:10:50 UTC</td>
+                        <td align=right>25</td>
+                        <td align=right>21</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>140</td>
+                        <td>2019-01-14 21:11:11 UTC</td>
+                        <td align=right>25</td>
+                        <td align=right>21</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>141</td>
+                        <td>2019-01-14 21:11:32 UTC</td>
+                        <td align=right>25</td>
+                        <td align=right>23</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>142</td>
+                        <td>2019-01-14 21:11:53 UTC</td>
+                        <td align=right>25</td>
+                        <td align=right>23</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>143</td>
+                        <td>2019-01-14 21:12:09 UTC</td>
+                        <td align=right>24</td>
+                        <td align=right>23</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>144</td>
+                        <td>2019-01-14 21:12:30 UTC</td>
+                        <td align=right>21</td>
+                        <td align=right>21</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>145</td>
+                        <td>2019-01-14 21:12:46 UTC</td>
+                        <td align=right>19</td>
+                        <td align=right>21</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>146</td>
+                        <td>2019-01-14 21:13:09 UTC</td>
+                        <td align=right>13</td>
+                        <td align=right>24</td>
+                    </tr>
+                    <tr height=23 style='height:17.4pt'>
+                        <td height=23 class=xl66 style='height:17.4pt'>147</td>
+                        <td>2019-01-14 21:13:25 UTC</td>
+                        <td align=right>10</td>
+                        <td align=right>26</td>
+                    </tr>
+                    <![if supportMisalignedColumns]>
+                    <tr height=0 style='display:none'>
+                        <td width=45 style='width:34pt'></td>
+                        <td width=195 style='width:170pt'></td>
+                        <td width=106 style='width:90pt'></td>
+                        <td width=83 style='width:72pt'></td>
+                    </tr>
+                    <![endif]>
                 </table>
             </div>
+            <br><br>
 
-            <!--R code-->
+            <!--Processed data with R-->
+            <h1>Processed data with R</h1>
+            <p>data information</p>
+            <img class="img borderedbox inspace-5" src="../images/demo/View%20Data/data%20info.PNG" alt="">
+            <p>Histogram of temperature and humidity</p>
+            <img class="img borderedbox inspace-5" src="../images/demo/View%20Data/histogram.png" alt="">
+            <p>3rd polynomial regression</p>
+            <img class="img borderedbox inspace-5" src="../images/demo/View%20Data/polynomial3%20regression.PNG" alt="">
+            <p>3rd polynomial regression with Scatterplot and line</p>
+            <img class="img borderedbox inspace-5" src="../images/demo/View%20Data/polynomial3%20graph.png" alt="">
+            <br><br>
 
-            <a href="#!" onclick="rcode()">R Source Code</a>
+            <!--Arduino code-->
+            <a href="#!" onclick="code(0)">Arduino Source Code</a>
             <br>
             <br>
-            <div class="colorscripter-code" style="display:none; color:#010101; font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important; overflow:auto">
-                <table class="colorscripter-code-table" style="margin:0; padding:0; border:none; background-color:#fafafa; border-radius:4px;" cellspacing="0" cellpadding="0">
+            <div class="colorscripter-code">
+                <table class="colorscripter-code-table" cellspacing="0" cellpadding="0">
                     <tr>
                         <td style="padding:6px; border-right:2px solid #e5e5e5">
                             <div style="margin:0; padding:0; word-break:normal; text-align:right; color:#666; font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height:130%">
@@ -228,10 +1102,196 @@ Licence URI: https://www.os-templates.com/template-terms
                                 <div class="num">72</div>
                                 <div class="num">73</div>
                                 <div class="num">74</div>
+                                <div class="num">75</div>
+                                <div class="num">76</div>
+                                <div class="num">77</div>
+                                <div class="num">78</div>
+                                <div class="num">79</div>
+                                <div class="num">80</div>
+                                <div class="num">81</div>
                             </div>
                         </td>
                         <td style="padding:6px 0">
                             <div style="margin:0; padding:0; color:#010101; font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height:130%">
+                                <div class="code"><span style="color:#999999">/*</span></div>
+                                <div class="code"><span style="color:#999999">&nbsp;&nbsp;LoRa&nbsp;Simple&nbsp;Client&nbsp;for&nbsp;Arduino&nbsp;:</span></div>
+                                <div class="code"><span style="color:#999999">&nbsp;&nbsp;Support&nbsp;Devices:&nbsp;LoRa&nbsp;Shield&nbsp;+&nbsp;Arduino&nbsp;</span></div>
+                                <div class="code"><span style="color:#999999">&nbsp;&nbsp;</span></div>
+                                <div class="code"><span style="color:#999999">&nbsp;&nbsp;Example&nbsp;sketch&nbsp;showing&nbsp;how&nbsp;to&nbsp;create&nbsp;a&nbsp;simple&nbsp;messageing&nbsp;client,&nbsp;</span></div>
+                                <div class="code"><span style="color:#999999">&nbsp;&nbsp;with&nbsp;the&nbsp;RH_RF95&nbsp;class.&nbsp;RH_RF95&nbsp;class&nbsp;does&nbsp;not&nbsp;provide&nbsp;for&nbsp;addressing&nbsp;or</span></div>
+                                <div class="code"><span style="color:#999999">&nbsp;&nbsp;reliability,&nbsp;so&nbsp;you&nbsp;should&nbsp;only&nbsp;use&nbsp;RH_RF95&nbsp;if&nbsp;you&nbsp;do&nbsp;not&nbsp;need&nbsp;the&nbsp;higher</span></div>
+                                <div class="code"><span style="color:#999999">&nbsp;&nbsp;level&nbsp;messaging&nbsp;abilities.</span></div>
+                                <div class="code"><span style="color:#999999"></span></div>
+                                <div class="code"><span style="color:#999999">&nbsp;&nbsp;It&nbsp;is&nbsp;designed&nbsp;to&nbsp;work&nbsp;with&nbsp;the&nbsp;other&nbsp;example&nbsp;LoRa&nbsp;Simple&nbsp;Server</span></div>
+                                <div class="code"><span style="color:#999999">&nbsp;&nbsp;User&nbsp;need&nbsp;to&nbsp;use&nbsp;the&nbsp;modified&nbsp;RadioHead&nbsp;library&nbsp;from:</span></div>
+                                <div class="code"><span style="color:#999999">&nbsp;&nbsp;https://github.com/dragino/RadioHead</span></div>
+                                <div class="code"><span style="color:#999999"></span></div>
+                                <div class="code"><span style="color:#999999">&nbsp;&nbsp;modified&nbsp;16&nbsp;11&nbsp;2016</span></div>
+                                <div class="code"><span style="color:#999999">&nbsp;&nbsp;by&nbsp;Edwin&nbsp;Chen&nbsp;&lt;support@dragino.com&gt;</span></div>
+                                <div class="code"><span style="color:#999999">&nbsp;&nbsp;Dragino&nbsp;Technology&nbsp;Co.,&nbsp;Limited</span></div>
+                                <div class="code"><span style="color:#999999">*/</span></div>
+                                <div class="code">&nbsp;</div>
+                                <div class="code"><span style="color:#0086b3">#include</span>&nbsp;<span style="color:#ff3399"></span><span style="color:#a71d5d">&lt;</span>SPI.h<span style="color:#ff3399"></span><span style="color:#a71d5d">&gt;</span></div>
+                                <div class="code"><span style="color:#0086b3">#include</span>&nbsp;<span style="color:#ff3399"></span><span style="color:#a71d5d">&lt;</span>RH_RF95.h<span style="color:#ff3399"></span><span style="color:#a71d5d">&gt;</span></div>
+                                <div class="code">&nbsp;</div>
+                                <div class="code"><span style="color:#999999">//&nbsp;Singleton&nbsp;instance&nbsp;of&nbsp;the&nbsp;radio&nbsp;driver</span></div>
+                                <div class="code">RH_RF95&nbsp;rf95;</div>
+                                <div class="code"><span style="color:#066de2">float</span>&nbsp;frequency&nbsp;<span style="color:#ff3399"></span><span style="color:#a71d5d">=</span>&nbsp;<span style="color:#0099cc">868.</span><span style="color:#0099cc">0</span>;</div>
+                                <div class="code">&nbsp;</div>
+                                <div class="code"><span style="color:#a71d5d">void</span>&nbsp;setup()&nbsp;</div>
+                                <div class="code">{</div>
+                                <div class="code">&nbsp;&nbsp;Serial.<span style="color:#066de2">begin</span>(<span style="color:#0099cc">9600</span>);</div>
+                                <div class="code">&nbsp;&nbsp;<span style="color:#999999">//while&nbsp;(!Serial)&nbsp;;&nbsp;//&nbsp;Wait&nbsp;for&nbsp;serial&nbsp;port&nbsp;to&nbsp;be&nbsp;available</span></div>
+                                <div class="code">&nbsp;&nbsp;Serial.println(<span style="color:#63a35c">"Start&nbsp;LoRa&nbsp;Client"</span>);</div>
+                                <div class="code">&nbsp;&nbsp;<span style="color:#a71d5d">if</span>&nbsp;(<span style="color:#ff3399"></span><span style="color:#a71d5d">!</span>rf95.init())</div>
+                                <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;Serial.println(<span style="color:#63a35c">"init&nbsp;failed"</span>);</div>
+                                <div class="code">&nbsp;&nbsp;<span style="color:#999999">//&nbsp;Setup&nbsp;ISM&nbsp;frequency</span></div>
+                                <div class="code">&nbsp;&nbsp;rf95.setFrequency(frequency);</div>
+                                <div class="code">&nbsp;&nbsp;<span style="color:#999999">//&nbsp;Setup&nbsp;Power,dBm</span></div>
+                                <div class="code">&nbsp;&nbsp;rf95.setTxPower(<span style="color:#0099cc">13</span>);</div>
+                                <div class="code">&nbsp;</div>
+                                <div class="code">&nbsp;&nbsp;<span style="color:#999999">//&nbsp;Setup&nbsp;Spreading&nbsp;Factor&nbsp;(6&nbsp;~&nbsp;12)</span></div>
+                                <div class="code">&nbsp;&nbsp;rf95.setSpreadingFactor(<span style="color:#0099cc">7</span>);</div>
+                                <div class="code">&nbsp;&nbsp;</div>
+                                <div class="code">&nbsp;&nbsp;<span style="color:#999999">//&nbsp;Setup&nbsp;BandWidth,&nbsp;option:&nbsp;7800,10400,15600,20800,31200,41700,62500,125000,250000,500000</span></div>
+                                <div class="code">&nbsp;&nbsp;<span style="color:#999999">//Lower&nbsp;BandWidth&nbsp;for&nbsp;longer&nbsp;distance.</span></div>
+                                <div class="code">&nbsp;&nbsp;rf95.setSignalBandwidth(<span style="color:#0099cc">125000</span>);</div>
+                                <div class="code">&nbsp;&nbsp;</div>
+                                <div class="code">&nbsp;&nbsp;<span style="color:#999999">//&nbsp;Setup&nbsp;Coding&nbsp;Rate:5(4/5),6(4/6),7(4/7),8(4/8)&nbsp;</span></div>
+                                <div class="code">&nbsp;&nbsp;rf95.setCodingRate4(<span style="color:#0099cc">5</span>);</div>
+                                <div class="code">}</div>
+                                <div class="code">&nbsp;</div>
+                                <div class="code"><span style="color:#a71d5d">void</span>&nbsp;loop()</div>
+                                <div class="code">{</div>
+                                <div class="code">&nbsp;&nbsp;Serial.println(<span style="color:#63a35c">"Sending&nbsp;to&nbsp;LoRa&nbsp;Server"</span>);</div>
+                                <div class="code">&nbsp;&nbsp;<span style="color:#999999">//&nbsp;Send&nbsp;a&nbsp;message&nbsp;to&nbsp;LoRa&nbsp;Server</span></div>
+                                <div class="code">&nbsp;&nbsp;uint8_t&nbsp;data[]&nbsp;<span style="color:#ff3399"></span><span style="color:#a71d5d">=</span>&nbsp;<span style="color:#63a35c">"Hello,&nbsp;this&nbsp;is&nbsp;device&nbsp;1"</span>;</div>
+                                <div class="code">&nbsp;&nbsp;rf95.send(data,&nbsp;<span style="color:#a71d5d">sizeof</span>(data));</div>
+                                <div class="code">&nbsp;&nbsp;</div>
+                                <div class="code">&nbsp;&nbsp;rf95.waitPacketSent();</div>
+                                <div class="code">&nbsp;&nbsp;<span style="color:#999999">//&nbsp;Now&nbsp;wait&nbsp;for&nbsp;a&nbsp;reply</span></div>
+                                <div class="code">&nbsp;&nbsp;uint8_t&nbsp;buf[RH_RF95_MAX_MESSAGE_LEN];</div>
+                                <div class="code">&nbsp;&nbsp;uint8_t&nbsp;len&nbsp;<span style="color:#ff3399"></span><span style="color:#a71d5d">=</span>&nbsp;<span style="color:#a71d5d">sizeof</span>(buf);</div>
+                                <div class="code">&nbsp;</div>
+                                <div class="code">&nbsp;&nbsp;<span style="color:#a71d5d">if</span>&nbsp;(rf95.waitAvailableTimeout(<span style="color:#0099cc">3000</span>))</div>
+                                <div class="code">&nbsp;&nbsp;{&nbsp;</div>
+                                <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#999999">//&nbsp;Should&nbsp;be&nbsp;a&nbsp;reply&nbsp;message&nbsp;for&nbsp;us&nbsp;now&nbsp;&nbsp;&nbsp;</span></div>
+                                <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a71d5d">if</span>&nbsp;(rf95.recv(buf,&nbsp;<span style="color:#ff3399"></span><span style="color:#a71d5d">&amp;</span>len))</div>
+                                <div class="code">&nbsp;&nbsp;&nbsp;{</div>
+                                <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Serial.print(<span style="color:#63a35c">"got&nbsp;reply:&nbsp;"</span>);</div>
+                                <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Serial.println((<span style="color:#066de2">char</span><span style="color:#a71d5d">*</span>)buf);</div>
+                                <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Serial.print(<span style="color:#63a35c">"RSSI:&nbsp;"</span>);</div>
+                                <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Serial.println(rf95.lastRssi(),&nbsp;DEC);&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                                <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;}</div>
+                                <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a71d5d">else</span></div>
+                                <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;{</div>
+                                <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Serial.println(<span style="color:#63a35c">"recv&nbsp;failed"</span>);</div>
+                                <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;}</div>
+                                <div class="code">&nbsp;&nbsp;}</div>
+                                <div class="code">&nbsp;&nbsp;<span style="color:#a71d5d">else</span></div>
+                                <div class="code">&nbsp;&nbsp;{</div>
+                                <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;Serial.println(<span style="color:#63a35c">"No&nbsp;reply,&nbsp;is&nbsp;LoRa&nbsp;server&nbsp;running?"</span>);</div>
+                                <div class="code">&nbsp;&nbsp;}</div>
+                                <div class="code">&nbsp;&nbsp;delay(<span style="color:#0099cc">5000</span>);</div>
+                                <div class="code">}</div>
+                            </div>
+                            <div style="text-align:right; margin-top:-13px; margin-right:5px; font-size:9px; font-style:italic"><a href="http://colorscripter.com/info#e" target="_blank" style="color:#e5e5e5; text-decoration:none">Colored by Color Scripter</a></div>
+                        </td>
+                        <td style="vertical-align:bottom; padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none; color:white"><span style="font-size:9px; word-break:normal; background-color:#e5e5e5; color:white; border-radius:10px; padding:1px">cs</span></a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <!--R code-->
+            <a href="#!" onclick="code(1)">R Source Code</a>
+            <br>
+            <br>
+            <div class="colorscripter-code">
+                <table class="colorscripter-code-table" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td style="padding:6px; border-right:2px solid #e5e5e5">
+                            <div style="margin:0; padding:0; word-break:normal; text-align:right; color:#666; font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height:130%">
+                                <div class="num">1</div>
+                                <div class="num">2</div>
+                                <div class="num">3</div>
+                                <div class="num">4</div>
+                                <div class="num">5</div>
+                                <div class="num">6</div>
+                                <div class="num">7</div>
+                                <div class="num">8</div>
+                                <div class="num">9</div>
+                                <div class="num">10</div>
+                                <div class="num">11</div>
+                                <div class="num">12</div>
+                                <div class="num">13</div>
+                                <div class="num">14</div>
+                                <div class="num">15</div>
+                                <div class="num">16</div>
+                                <div class="num">17</div>
+                                <div class="num">18</div>
+                                <div class="num">19</div>
+                                <div class="num">20</div>
+                                <div class="num">21</div>
+                                <div class="num">22</div>
+                                <div class="num">23</div>
+                                <div class="num">24</div>
+                                <div class="num">25</div>
+                                <div class="num">26</div>
+                                <div class="num">27</div>
+                                <div class="num">28</div>
+                                <div class="num">29</div>
+                                <div class="num">30</div>
+                                <div class="num">31</div>
+                                <div class="num">32</div>
+                                <div class="num">33</div>
+                                <div class="num">34</div>
+                                <div class="num">35</div>
+                                <div class="num">36</div>
+                                <div class="num">37</div>
+                                <div class="num">38</div>
+                                <div class="num">39</div>
+                                <div class="num">40</div>
+                                <div class="num">41</div>
+                                <div class="num">42</div>
+                                <div class="num">43</div>
+                                <div class="num">44</div>
+                                <div class="num">45</div>
+                                <div class="num">46</div>
+                                <div class="num">47</div>
+                                <div class="num">48</div>
+                                <div class="num">49</div>
+                                <div class="num">50</div>
+                                <div class="num">51</div>
+                                <div class="num">52</div>
+                                <div class="num">53</div>
+                                <div class="num">54</div>
+                                <div class="num">55</div>
+                                <div class="num">56</div>
+                                <div class="num">57</div>
+                                <div class="num">58</div>
+                                <div class="num">59</div>
+                                <div class="num">60</div>
+                                <div class="num">61</div>
+                                <div class="num">62</div>
+                                <div class="num">63</div>
+                                <div class="num">64</div>
+                                <div class="num">65</div>
+                                <div class="num">66</div>
+                                <div class="num">67</div>
+                                <div class="num">68</div>
+                                <div class="num">69</div>
+                                <div class="num">70</div>
+                                <div class="num">71</div>
+                            </div>
+                        </td>
+                        <td style="padding:6px 0">
+                            <div style="margin:0; padding:0; color:#010101; font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height:130%">
+                                <div class="code"><span style="color:#999999">##########################################################################################</span></div>
+                                <div class="code"><span style="color:#999999">#########&nbsp;S&nbsp;&nbsp;u&nbsp;b&nbsp;j&nbsp;e&nbsp;c&nbsp;&nbsp;t&nbsp;:&nbsp;Collect&nbsp;Temperatue&nbsp;and&nbsp;Humidity&nbsp;data&nbsp;and&nbsp;Analyze&nbsp;#############</span></div>
+                                <div class="code"><span style="color:#999999">#########&nbsp;Collection&nbsp;Date&nbsp;:&nbsp;January&nbsp;14,&nbsp;2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#############</span></div>
+                                <div class="code"><span style="color:#999999">#########&nbsp;Data&nbsp;&nbsp;collector&nbsp;:&nbsp;Wayne's&nbsp;Crop&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#############</span></div>
+                                <div class="code"><span style="color:#999999">##########################################################################################</span></div>
+                                <div class="code">&nbsp;</div>
                                 <div class="code">rm(list<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>ls())</div>
                                 <div class="code">&nbsp;</div>
                                 <div class="code"><span style="color:#999999">#&nbsp;library</span></div>
@@ -242,13 +1302,12 @@ Licence URI: https://www.os-templates.com/template-terms
                                 <div class="code">par(mar<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>c(<span style="color:#308ce5">1</span>,<span style="color:#308ce5">1</span>,<span style="color:#308ce5">1</span>,<span style="color:#308ce5">1</span>))</div>
                                 <div class="code">&nbsp;</div>
                                 <div class="code"><span style="color:#999999">#&nbsp;Open&nbsp;data</span></div>
-                                <div class="code">setwd(<span style="color:#993333">"C:\\Users\\PandoraBox\\Desktop\\2018\\2018_winter\\wayne-s-crop\\analyzed"</span>)</div>
-                                <div class="code">getwd</div>
-                                <div class="code">test&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>&nbsp;read.csv(<span style="color:#993333">"test.csv"</span>,header&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>&nbsp;TRUE)</div>
+                                <div class="code">test&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>&nbsp;read.csv(<span style="color:#993333">"feed.csv"</span>,header&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>&nbsp;TRUE)</div>
                                 <div class="code">test</div>
                                 <div class="code">&nbsp;</div>
                                 <div class="code">test1&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>&nbsp;test[,<span style="color:#308ce5">3</span>:<span style="color:#308ce5">4</span>]</div>
                                 <div class="code">test1</div>
+                                <div class="code">View(test1)</div>
                                 <div class="code">&nbsp;</div>
                                 <div class="code"><span style="color:#999999">#&nbsp;Made&nbsp;Graph&nbsp;with&nbsp;temperature&nbsp;and&nbsp;humidity&nbsp;data&nbsp;</span></div>
                                 <div class="code"><span style="color:#999999">##&nbsp;Source&nbsp;:&nbsp;http://www.dodomira.com/2016/03/18/ggplot2-%EA%B8%B0%EC%B4%88/</span></div>
@@ -258,53 +1317,45 @@ Licence URI: https://www.os-templates.com/template-terms
                                 <div class="code">&nbsp;</div>
                                 <div class="code">g&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">&lt;</span><span style="color:#0086b3"></span><span style="color:#ff3399">-</span>&nbsp;ggplot(data<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>test1,&nbsp;aes(x&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>&nbsp;temperature,&nbsp;y&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>&nbsp;humidity))</div>
                                 <div class="code">&nbsp;</div>
-                                <div class="code">g<span style="color:#0086b3"></span><span style="color:#ff3399">+</span>geom_point()&nbsp;<span style="color:#999999">#&nbsp;made&nbsp;Scatterplot</span></div>
-                                <div class="code">&nbsp;</div>
-                                <div class="code"><span style="color:#999999">##&nbsp;Source&nbsp;:&nbsp;http://www.dodomira.com/2016/03/24/r%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%9C-%EA%BA%BD%EC%9D%80%EC%84%A0%ED%98%95-%EC%9B%90%ED%98%95-%EC%98%81%EC%97%AD%ED%98%95-%EB%B6%84%EC%82%B0%ED%98%95-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%A6%AC/</span></div>
-                                <div class="code">&nbsp;</div>
-                                <div class="code">bar&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">&lt;</span><span style="color:#0086b3"></span><span style="color:#ff3399">-</span>&nbsp;ggplot(test1,&nbsp;aes(x<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>temperature,&nbsp;y<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>humidity))<span style="color:#0086b3"></span><span style="color:#ff3399">+</span>geom_line()<span style="color:#0086b3"></span><span style="color:#ff3399">+</span>xlim(<span style="color:#308ce5">23</span>,<span style="color:#308ce5">27</span>)</div>
-                                <div class="code">bar&nbsp;<span style="color:#999999">#&nbsp;made&nbsp;deflection&nbsp;graph</span></div>
+                                <div class="code">g<span style="color:#0086b3"></span><span style="color:#ff3399">+</span>geom_point()&nbsp;<span style="color:#999999">###&nbsp;made&nbsp;Scatterplot</span></div>
                                 <div class="code">&nbsp;</div>
                                 <div class="code"><span style="color:#999999">#&nbsp;Correlation,&nbsp;Regression&nbsp;with&nbsp;temperature&nbsp;and&nbsp;humidity&nbsp;data</span></div>
-                                <div class="code"><span style="color:#999999">#&nbsp;Source&nbsp;:&nbsp;http://rstudio-pubs-static.s3.amazonaws.com/189354_277dfb3a83a34a2abaae855b90fcf269.html</span></div>
+                                <div class="code"><span style="color:#999999">##&nbsp;Source&nbsp;:&nbsp;http://rstudio-pubs-static.s3.amazonaws.com/189354_277dfb3a83a34a2abaae855b90fcf269.html</span></div>
                                 <div class="code">&nbsp;</div>
                                 <div class="code"><span style="color:#0099cc">str</span>(test1)</div>
                                 <div class="code">&nbsp;</div>
                                 <div class="code">par(mfrow<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>c(<span style="color:#308ce5">1</span>,<span style="color:#308ce5">2</span>))</div>
                                 <div class="code">hist(temperature,&nbsp;col<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#993333">"blue"</span>,&nbsp;breaks<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#308ce5">100</span>)</div>
                                 <div class="code">hist(humidity,&nbsp;col<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#993333">"blue"</span>,&nbsp;breaks<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#308ce5">100</span>)</div>
-                                <div class="code">par(mfrow<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>c(<span style="color:#308ce5">1</span>,<span style="color:#308ce5">1</span>))&nbsp;<span style="color:#999999">#&nbsp;histogram</span></div>
+                                <div class="code">par(mfrow<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>c(<span style="color:#308ce5">1</span>,<span style="color:#308ce5">1</span>))&nbsp;<span style="color:#999999">###&nbsp;histogram</span></div>
                                 <div class="code">&nbsp;</div>
-                                <div class="code">cor.test(temperature,&nbsp;humidity)&nbsp;<span style="color:#999999">#&nbsp;Pearson's&nbsp;product-moment&nbsp;correlation</span></div>
+                                <div class="code">cor.test(temperature,&nbsp;humidity)&nbsp;<span style="color:#999999">###&nbsp;Pearson's&nbsp;product-moment&nbsp;correlation</span></div>
                                 <div class="code">&nbsp;</div>
-                                <div class="code">xtabs(~temperature<span style="color:#0086b3"></span><span style="color:#ff3399">+</span>humidity,&nbsp;data<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>test1)&nbsp;<span style="color:#999999">#&nbsp;table</span></div>
+                                <div class="code">xtabs(~temperature<span style="color:#0086b3"></span><span style="color:#ff3399">+</span>humidity,&nbsp;data<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>test1)&nbsp;<span style="color:#999999">###&nbsp;table</span></div>
                                 <div class="code">&nbsp;</div>
-                                <div class="code"><span style="color:#999999">#plot(temperature~humidity,&nbsp;data&nbsp;=&nbsp;test1)</span></div>
-                                <div class="code"><span style="color:#999999">#abline(out,col="red")&nbsp;#&nbsp;graph&nbsp;with&nbsp;scatterplot&nbsp;and&nbsp;regression&nbsp;line</span></div>
-                                <div class="code">&nbsp;</div>
-                                <div class="code">ggplot(data&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>&nbsp;test1,&nbsp;aes(x<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>temperature,&nbsp;y<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>humidity))<span style="color:#0086b3"></span><span style="color:#ff3399">+</span>geom_count()<span style="color:#0086b3"></span><span style="color:#ff3399">+</span>geom_smooth(method<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#993333">"lm"</span>)</div>
-                                <div class="code"><span style="color:#999999">#&nbsp;made&nbsp;graph</span></div>
+                                <div class="code">ggplot(data&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>&nbsp;test1,&nbsp;aes(x<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>temperature,&nbsp;y<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>humidity))<span style="color:#0086b3"></span><span style="color:#ff3399">+</span>geom_count()<span style="color:#0086b3"></span><span style="color:#ff3399">+</span>geom_smooth(method<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#993333">"lm"</span>)&nbsp;<span style="color:#999999">###&nbsp;made&nbsp;graph</span></div>
                                 <div class="code">&nbsp;</div>
                                 <div class="code">fit&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">&lt;</span><span style="color:#0086b3"></span><span style="color:#ff3399">-</span>&nbsp;lm(temperature~humidity,&nbsp;data&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>&nbsp;test1)</div>
-                                <div class="code">summary(fit)&nbsp;<span style="color:#999999">#&nbsp;linear&nbsp;regression</span></div>
+                                <div class="code">summary(fit)&nbsp;<span style="color:#999999">###&nbsp;linear&nbsp;regression</span></div>
                                 <div class="code">&nbsp;</div>
                                 <div class="code">plot(temperature~humidity,&nbsp;data<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>test1)</div>
-                                <div class="code">abline(fit,&nbsp;col<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#993333">"blue"</span>)&nbsp;<span style="color:#999999">#&nbsp;graph</span></div>
+                                <div class="code">abline(fit,&nbsp;col<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#993333">"blue"</span>)&nbsp;<span style="color:#999999">###&nbsp;graph</span></div>
                                 <div class="code">&nbsp;</div>
                                 <div class="code">&nbsp;</div>
                                 <div class="code">fit2&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">&lt;</span><span style="color:#0086b3"></span><span style="color:#ff3399">-</span>&nbsp;lm(temperature~humidity<span style="color:#0086b3"></span><span style="color:#ff3399">+</span>I(humidity^<span style="color:#308ce5">2</span>),&nbsp;data<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>test1)</div>
-                                <div class="code">summary(fit2)&nbsp;<span style="color:#999999">#&nbsp;polynomial&nbsp;regression(2)</span></div>
+                                <div class="code">summary(fit2)&nbsp;<span style="color:#999999">###&nbsp;polynomial&nbsp;regression(2)</span></div>
                                 <div class="code">&nbsp;</div>
                                 <div class="code">plot(temperature~humidity,&nbsp;data<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>test1)</div>
-                                <div class="code">lines(temperature,&nbsp;fitted(fit2),&nbsp;col<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#993333">"red"</span>)&nbsp;<span style="color:#999999">#&nbsp;graph</span></div>
+                                <div class="code">lines(temperature,&nbsp;fitted(fit2),&nbsp;col<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#993333">"red"</span>)&nbsp;<span style="color:#999999">###&nbsp;graph</span></div>
                                 <div class="code">&nbsp;</div>
                                 <div class="code">fit3&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">&lt;</span><span style="color:#0086b3"></span><span style="color:#ff3399">-</span>&nbsp;lm(temperature~humidity&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">+</span>&nbsp;I(humidity^<span style="color:#308ce5">2</span>)&nbsp;<span style="color:#0086b3"></span><span style="color:#ff3399">+</span>&nbsp;I(humidity^<span style="color:#308ce5">3</span>),&nbsp;data<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>test1)</div>
-                                <div class="code">summary(fit3)&nbsp;<span style="color:#999999">#&nbsp;polynomial&nbsp;regression(3)</span></div>
+                                <div class="code">summary(fit3)&nbsp;<span style="color:#999999">###&nbsp;polynomial&nbsp;regression(3)</span></div>
+                                <div class="code">&nbsp;</div>
                                 <div class="code">scatterplot(temperature~humidity,&nbsp;data<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>test1)</div>
                                 <div class="code">scatterplot(temperature~humidity,&nbsp;data<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>test1,&nbsp;pch<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#308ce5">19</span>,</div>
                                 <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;spread<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>FALSE,&nbsp;smoother.args<span style="color:#0086b3"></span><span style="color:#ff3399">=</span>list(lty<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#308ce5">2</span>),</div>
                                 <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;main<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#993333">"Test&nbsp;data"</span>,</div>
-                                <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xlab<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#993333">"Temperature(Celsius)"</span>,&nbsp;ylab<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#993333">"Humidity(mm)"</span>)</div>
+                                <div class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xlab<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#993333">"Temperature(Celsius)"</span>,&nbsp;ylab<span style="color:#0086b3"></span><span style="color:#ff3399">=</span><span style="color:#993333">"Humidity(mm)"</span>)&nbsp;<span style="color:#999999">###&nbsp;graph</span></div>
                                 <div class="code">&nbsp;</div>
                             </div>
                             <div style="text-align:right; margin-top:-13px; margin-right:5px; font-size:9px; font-style:italic"><a href="http://colorscripter.com/info#e" target="_blank" style="color:#e5e5e5; text-decoration:none">Colored by Color Scripter</a></div>
@@ -315,6 +1366,7 @@ Licence URI: https://www.os-templates.com/template-terms
             </div>
             <!-- ################################################################################################ -->
             <!-- / main body -->
+        </div>
             <div class="clear"></div>
     </main>
 </div>
