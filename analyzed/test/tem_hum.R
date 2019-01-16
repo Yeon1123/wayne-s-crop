@@ -8,8 +8,6 @@ par("mar")
 par(mar=c(1,1,1,1))
 
 # Open data
-setwd("C:\\Users\\PandoraBox\\Desktop\\2018\\2018_winter\\wayne-s-crop\\analyzed")
-getwd
 test = read.csv("test.csv",header = TRUE)
 test
 
