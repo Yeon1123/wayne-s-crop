@@ -321,6 +321,13 @@ input:focus, textarea:focus, *:required:focus{border-color:#96B2B6;}
 .post h4{font-size: 18px; color:black}
 .post p{font-size: 12px;}
 
+/* About */
+.about{margin:auto; padding:12px; width:100%; height: 300px}
+#team{height:360px}
+.about .borderedbox{width:220px}
+.a{float:left; width:50%; height:220px; display:table; margin:auto}
+.b{display:table-cell; vertical-align: middle}
+
 /* R Code */
 .code{padding:0 6px 0 10px; white-space:pre; line-height:130%;}
 .num{line-height:130%}
