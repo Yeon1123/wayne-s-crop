@@ -160,7 +160,7 @@ plot(humidity~temperature, data=data)
 lines(data$temperature, fitted(fit3), col="blue")
 ```
 
-### graph with accurate data and 3rd polynomial regression line(It's close same as linear regression line)
+### graph with accurate data and 3rd polynomial regression line
 ```{r 3rd poly4, warning=FALSE, echo=FALSE}
 plot(humidity_com~temperature_com, data=acc)
 lines(acc$temperature_com, fitted(fit3_com), col="red")

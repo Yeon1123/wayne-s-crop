@@ -18,6 +18,17 @@ function code2(){
     }
 }
 
+var click3 = 0;
+function code3(){
+    click3 += 1;
+    console.log(click3);
+    if(click3%2 == 1){
+        document.getElementsByClassName("colorscripter-code")[2].style.display="block";
+    }else{
+        document.getElementsByClassName("colorscripter-code")[2].style.display="none";
+    }
+}
+
 var clicking = 0;
 function Rcode(id){
     clicking += 1;

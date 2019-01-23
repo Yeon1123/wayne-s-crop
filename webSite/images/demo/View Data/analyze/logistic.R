@@ -21,6 +21,8 @@ test <- na.omit(test)
 test[,4] <- test[,4] * 0.01
 data = test[,3:4]
 
+time <- test[,1]
+
 temperature <- data[,1]
 humidity <- data[,2]
 temperature_com <- acc[,1]
