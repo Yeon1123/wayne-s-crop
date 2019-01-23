@@ -67,14 +67,14 @@ exp(B[2]) # log odds effect
 
 ### LR test 
 ratio <- g0$null.deviance-g0$deviance    
-p.value <- 1-pchisq(ratio,df=1)
+p.value <- 1-pchisq(ratio,df=161)
 
 # correlation
 cor(data$field1,data$field2)
 
 ### LR test 
 ratio1 <- g1$null.deviance-g1$deviance    
-p.value1 <- 1-pchisq(ratio,df=1)
+p.value1 <- 1-pchisq(ratio,df=44)
 
 # correlation
 cor(acc$temperature,acc$humidity)
@@ -87,4 +87,6 @@ fit2 <- multinom(humidity_com~temperature_com,data=acc) # model 1 (our interest)
 fit3 <- multinom(humidity_com~1,data=acc) # model 0 (uner H_0)
 
 ratio.likelihood <- fit0$deviance - fit1$deviance
-p.value <- pchisq(ratio.likelihood, df=1, lower.tail=F)
+p.value <- pchisq(ratio.likelihood, df=161, lower.tail=F)
+
+ratio.likelihood1 <- fit2$deviance - 
