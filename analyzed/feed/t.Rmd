@@ -10,7 +10,6 @@ output: html_document
 library(ggplot2)
 library(UsingR)
 library(car)
-library(gridExtra)
 par("mar")
 par(mar=c(1,1,1,1))
 ```
@@ -18,6 +17,9 @@ par(mar=c(1,1,1,1))
 ```{r setup2, warning=FALSE, include=FALSE}
 test = read.csv("feed.csv",header = TRUE)
 acc = read.csv("..//compare//tem_hum_com.csv", header = TRUE)
+test <- na.omit(test)
+
+test[,4] <- test[,4] * 0.01
 test1 = test[,3:4]
 
 temperature <- test1[,1]
@@ -51,7 +53,7 @@ summary(acc)
 
 ### histogram of test data
 ```{r histogram1, warning=FALSE, echo=FALSE}
-par(mfow=c(1,2))
+par(mfrow=c(1,2))
 hist(temperature, col="blue", breaks=100)
 hist(humidity, col="blue", breaks=100)
 
@@ -59,7 +61,7 @@ hist(humidity, col="blue", breaks=100)
 
 ### histogram of accurate data
 ```{r histogram2, warning=FALSE, echo=FALSE}
-par(mfow=c(1,2))
+par(mfrow=c(1,2))
 hist(temperature_com, col="red", breaks = 100)
 hist(humidity_com, col="red", breaks = 100)
 par(mfrow=c(1,1))
