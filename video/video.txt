@@ -1,0 +1,19 @@
+Hi, our group name is Wayne's Crop and we represent the IOT Agriculture Team.
+Our team members are Jeong-yeon Yu, HyunMuk Kim, Jiae Yun, and Jordan Kramer.
+
+This is the diagram illistrating our project.
+
+Our website crawls Weatherspark and uses it to obtain and display data for regions we do not cover.
+The graph updates every 60 seconds with our sensor's Temperature and Humidity data.
+We can use this data to calculate correlation and regression between the temperature and humidity.
+After obtaining the initial data, we will activate our irrigation system and obtian a new set of data allowing us correlate and compare results. 
+With these results we can increase crop yields and decrease waster waste by irrigating only in areas that require water.
+The home page displays our project as well as our graphs and data.
+
+
+These are our videos. We took videos during many of our experiments.
+
+This is our mini farm.
+We used the mini farm to scale down our experiements and determine if they would be applicable to widescale implementation.
+Specifically we used this for testing our irrigation systems and growing the plants.
+13

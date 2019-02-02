@@ -1,0 +1,7 @@
+명령 프롬프트에서
+
+cd C:\Users\PandoraBox\mycurl
+루프 실행
+schtasks /create /tn test /tr C:\Users\PandoraBox\mycurl\testing5.bat /sc minute /mo 1 /rl highest
+루프 정지
+schtasks /delete /tn test
