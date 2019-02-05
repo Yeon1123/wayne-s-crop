@@ -42,7 +42,6 @@ text(35,0.3, labels=fit_acc_text)
 abline(fit_acc, col="red")
 ```
 
-### fit accurate data and draw for 2nd polynomial regression
 ```{r 2nd poly2, warning=FALSE, echo=FALSE}
 fit2_acc <- lm(humidity_acc~temperature_acc+I(temperature_acc^2), data=acc)
 fit2_acc_text <- paste0("y = ", substr(fit2_acc$coefficients[1],1,7), " + ", substr(fit2_acc$coefficients[2],1,7), "x", " + ", substr(fit2_acc$coefficients[3],1,7), "x^2")
@@ -55,7 +54,6 @@ text(35,0.3, labels=fit2_acc_text)
 lines(acc$temperature_acc, fitted(fit2_acc), col="red")
 ```
 
-### fit accurate data and draw for 3rd polynomial regression
 ```{r 3rd poly2, warning=FALSE, echo=FALSE}
 fit3_acc <- lm(humidity_acc~temperature_acc + I(temperature_acc^2) + I(temperature_acc^3), data=acc)
 fit3_acc_text <- paste0("y = ", substr(fit3_acc$coefficients[1],1,7), " + ", substr(fit3_acc$coefficients[2],1,7), "x", " + ", substr(fit3_acc$coefficients[3],1,7), "x^2", " + ", substr(fit3_acc$coefficients[4],1,7), "x^3")
