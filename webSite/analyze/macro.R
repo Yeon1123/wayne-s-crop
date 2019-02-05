@@ -5,6 +5,6 @@ repeat{
     print(then)
     print(now)
     then <- Sys.time()
-    rmarkdown::render("analyze.Rmd")
+    rmarkdown::render("view_data.Rmd")
   }
 }

@@ -9,43 +9,55 @@ library(ggplot2)
 library(UsingR)
 library(car)
 library(gridExtra)
-par("mar")
 par(mar=c(1,1,1,1))
 ```
 
 ```{r setup2, warning=FALSE, include=FALSE}
 test = read.csv("feeds.csv",header = TRUE)
 acc = read.csv("tem_hum_com.csv", header = TRUE)
-test <- na.omit(test)
 
 test[,4] <- test[,4] * 0.01
-data = test[,3:4]
+test[,5] <- test[,5] / 950
+data = test[,3:5]
 time = test[,1]
 data$time = time
-colnames(data) = c("temperature", "humidity", "time")
-colnames(acc) = c("temperature_com", "humidity_com")
+data <- na.omit(data)
+acc <- na.omit(acc)
+
+colnames(data) = c("temperature", "humidity", "soil_humidity", "time")
+colnames(acc) = c("temperature_acc", "humidity_acc")
 ```
 
-## View data
+```{r process1, warning=FALSE, echo=FALSE, include=FALSE}
+Process_hum <- function(num_tem, num_hum){
+  for(ac in acc){
+    temper <- acc[ac, "temperature_acc"]
+    temper <- na.omit(temper)
+    for(i in temper){
+      if((num_tem <= (i + 0.5)) && (num_tem > (i - 0.5))){
+        i = 
+        hum <- acc[ac, "humidity_acc"][i] - num_hum
+        return(hum)
+      }
+    }
+  }
+}
 
-### information of current data
-```{r str1, warning=FALSE, echo=FALSE}
-str(data)
-```
+num <- nrow(data)
+List_hum <- function()
+  {
+  list_hum <- c()
+  red <- c()
+  for(i in 1:num){
+    list_hum<-rbind(list_hum, c(Process_hum(data[i,1], data[i,2]),i))
+  }
+  return(list_hum)
+}
 
-### information of accurate data
-```{r str2, warning=FALSE, echo=FALSE}
-str(acc)
-```
+data$process <- List_hum()[,1]
+data$acc <- data$process + data$humidity
 
-### summarize of current data
-```{r summary1, warning=FALSE, echo=FALSE}
-summary(data)
-```
-
-### summarize of accurate data
-```{r summary2, warning=FALSE, echo=FALSE}
-summary(acc)
+colnames(data) = c("temperature", "humidity", "soil_humidity", "time", "process", "acc")
 ```
 
 ### histogram of current data
@@ -58,132 +70,135 @@ p1 = ggplot(data = current, aes(x=time, y=humidity))+geom_point()
 grid.arrange(p,p1,ncol=2)
 ```
 
-## Correlation with temperature and humidity data
-##### Source : http://rstudio-pubs-static.s3.amazonaws.com/189354_277dfb3a83a34a2abaae855b90fcf269.html
-
-
-### correlation test for current data
-```{r correlation1, warning=FALSE, echo=FALSE}
-cor.test(data$temperature, data$humidity)
+### Scatterplot Matrixes from the car Package
+```{r sc2, warning=FALSE, echo=FALSE}
+scatterplotMatrix(~temperature+humidity+soil_humidity+process+acc, data=data, main="Three Cylinder Options")
 ```
 
-### correlation test for accurate data
-```{r correlation2, warning=FALSE, echo=FALSE}
-cor.test(acc$temperature_com, acc$humidity_com)
+```{r ggplot2, warning=FALSE, echo=FALSE, include=FALSE}
+### fit current data and draw for linear regression
+fit <- lm(humidity~temperature, data = data)
+fit_text <- paste0("y = ", substr(fit$coefficients[1],1,7), " + ", substr(fit$coefficients[2],1,7), "x")
+
+### fit accurate data and draw for linear regression
+fit_acc <- lm(humidity_acc~temperature_acc, data = acc)
+fit_acc_text <- paste0("y = ", substr(fit_acc$coefficients[1],1,7), " + ", substr(fit_acc$coefficients[2],1,7), "x")
 ```
 
 ### ggplot for current data
 ```{r ggplot1, warning=FALSE, echo=FALSE}
-ggplot(data = data, aes(x=temperature, y=humidity))+geom_count()+geom_smooth(method="lm")
-```
-
-### ggplot for accurate data
-```{r ggplot2, warning=FALSE, echo=FALSE}
-ggplot(data = acc, aes(x=temperature_com, y=humidity_com))+geom_count()+geom_smooth(method="lm")
-```
-
-### fit current data and draw for linear regression
-```{r linear1, warning=FALSE, echo=FALSE}
-fit <- lm(humidity~temperature, data = data)
-summary(fit)
-```
-
-### fit accurate data and draw for linear regression
-```{r linear2, warning=FALSE, echo=FALSE}
-fit_com <- lm(humidity_com~temperature_com, data = acc)
-summary(fit_com)
+ggplot(data = data, aes(x=temperature, y=humidity))+geom_count()+geom_smooth(method="lm") + 
+  annotate("text", label = fit_text, x = 8, y = 0.35)
 ```
 
 ### graph with current data and linear regression line
 ```{r linear3, warning=FALSE, echo=FALSE}
 plot(humidity~temperature, data=data)
+text(8,0.35, labels=fit_text)
 abline(fit, col="blue")
-```
-
-### graph with accurate data and linear regression line
-```{r linear4, warning=FALSE, echo=FALSE}
-plot(humidity_com~temperature_com, data=acc)
-abline(fit_com, col="red")
 ```
 
 ### graph with current data and linear regression line with accurate data
 ```{r linear5, warning=FALSE, echo=FALSE}
 plot(humidity~temperature, data=data)
-abline(fit_com, col="red")
+text(35,0.3, labels=fit_acc_text)
+abline(fit_acc, col="red")
 ```
 
 ### fit current data and draw for 2nd polynomial regression
 ```{r 2nd poly1, warning=FALSE, echo=FALSE}
 fit2 <- lm(humidity~temperature+I(temperature^2), data=data)
-summary(fit2)
-```
+fit2_text <- paste0("y = ", substr(fit2$coefficients[1],1,7), " + ", substr(fit2$coefficients[2],1,7), "x", " + ", substr(fit2$coefficients[3],1,7), "x^2")
 
 ### fit accurate data and draw for 2nd polynomial regression
-```{r 2nd poly2, warning=FALSE, echo=FALSE}
-fit2_com <- lm(humidity_com~temperature_com+I(temperature_com^2), data=acc)
-summary(fit2_com)
+fit2_acc <- lm(humidity_acc~temperature_acc+I(temperature_acc^2), data=acc)
+fit2_acc_text <- paste0("y = ", substr(fit2_acc$coefficients[1],1,7), " + ", substr(fit2_acc$coefficients[2],1,7), "x", " + ", substr(fit2_acc$coefficients[3],1,7), "x^2")
 ```
 
 ### graph with current data and 2nd polynomial regression line
 ```{r 2nd poly3, warning=FALSE, echo=FALSE}
 plot(humidity~temperature, data=data)
+text(8,0.35, labels=fit2_text)
 lines(data$temperature, fitted(fit2), col="blue")
-```
-
-### graph with accurate data and 2nd polynomial regression line
-```{r 2nd poly4, warning=FALSE, echo=FALSE}
-plot(humidity_com~temperature_com, data=acc)
-lines(acc$temperature_com, fitted(fit2_com), col="red")
 ```
 
 ### graph with current data and 2nd polynomial regression line with accurate data
 ```{r 2nd poly5, warning=FALSE, echo=FALSE}
 plot(humidity~temperature, data=data)
-lines(acc$temperature_com, fitted(fit2_com), col="red")
+text(8,0.35, labels=fit2_acc_text)
+lines(acc$temperature_acc, fitted(fit2_acc), col="red")
 ```
 
 ### fit current data and draw for 3rd polynomial regression
 ```{r 3rd poly1, warning=FALSE, echo=FALSE}
 fit3 <- lm(humidity~temperature + I(temperature^2) + I(temperature^3), data=data)
-summary(fit3)
-```
+fit3_text <- paste0("y = ", substr(fit3$coefficients[1],1,7), " + ", substr(fit3$coefficients[2],1,7), "x", " + ", substr(fit3$coefficients[3],1,7), "x^2", " + ", substr(fit3$coefficients[4],1,7), "x^3")
 
 ### fit accurate data and draw for 3rd polynomial regression
-```{r 3rd poly2, warning=FALSE, echo=FALSE}
-fit3_com <- lm(humidity_com~temperature_com + I(temperature_com^2) + I(temperature_com^3), data=acc)
-summary(fit3_com)
+fit3_acc <- lm(humidity_acc~temperature_acc + I(temperature_acc^2) + I(temperature_acc^3), data=acc)
+fit3_acc_text <- paste0("y = ", substr(fit3_acc$coefficients[1],1,7), " + ", substr(fit3_acc$coefficients[2],1,7), "x", " + ", substr(fit3_acc$coefficients[3],1,7), "x^2", " + ", substr(fit3_acc$coefficients[4],1,7), "x^3")
 ```
 
 ### graph with current data and 3rd polynomial regression line
 ```{r 3rd poly3, warning=FALSE, echo=FALSE}
 plot(humidity~temperature, data=data)
+text(8,0.35, labels=fit3_text)
 lines(data$temperature, fitted(fit3), col="blue")
-```
-
-### graph with accurate data and 3rd polynomial regression line
-```{r 3rd poly4, warning=FALSE, echo=FALSE}
-plot(humidity_com~temperature_com, data=acc)
-lines(acc$temperature_com, fitted(fit3_com), col="red")
 ```
 
 ### graph with current data and 3rd polynomial regression line with accurate data
 ```{r 3rd poly5, warning=FALSE, echo=FALSE}
 plot(humidity~temperature, data=data)
-lines(acc$temperature_com, fitted(fit3_com), col="red")
-```
-
-### made scatterplot with current data
-```{r scatter1, warning=FALSE, echo=FALSE}
-scatterplot(temperature~humidity, data=data, pch=19,
-            spread=FALSE, smoother.args=list(lty=2),
-            main="current data",
-            xlab="Temperature(Celsius)", ylab="Humidity(%)")
+text(8,0.35, labels=fit3_acc_text)
+lines(acc$temperature_acc, fitted(fit3_acc), col="red")
 ```
 
 ### made scatterplot with accurate data
 ```{r scatter2, warning=FALSE, echo=FALSE}
-scatterplot(temperature_com~humidity_com, data=acc, pch=19,
+scatterplot(temperature_acc~humidity_acc, data=acc, pch=19,
             spread=FALSE, smoother.args=list(lty=2),
-            main="Compare data",
+            main=fit3_acc_text,
             xlab="Temperature(Celsius)", ylab="Humidity(%)")
 ```
+
+### Process current data
+```{r process2, warning=FALSE, echo=FALSE}
+plot(data$time, data$humidity, col="red", ylim=range(0,1))
+points(data$time, data$acc, col="blue")
+```
+
+### compare humidity with soil humidity data
+```{r process3, warning=FALSE, echo=FALSE}
+plot(data$time, data$humidity, col="red", ylim=range(0,1))
+points(data$time, data$soil_humidity, col="blue")
+
+plot(data$humidity, data$soil_humidity, col="red",xlim=range(0,0.5), ylim=range(0,0.5))
+```
+
+## Scatterplot
+
+### Panel Correlation
+```{r sc3, warning=FALSE, echo=FALSE}
+panel.cor <- function(x, y, digits = 2, cex.cor, ...)
+{
+  usr <- par("usr"); on.exit(par(usr))
+  par(usr = c(0, 1, 0, 1))
+  # correlation coefficient
+  r <- cor(x, y)
+  txt <- format(c(r, 0.123456789), digits = digits)[1]
+  txt <- paste("r= ", txt, sep = "")
+  text(0.5, 0.6, txt)
+  
+  # p-value calculation
+  p <- cor.test(x, y)$p.value
+  txt2 <- format(c(p, 0.123456789), digits = digits)[1]
+  txt2 <- paste("p= ", txt2, sep = "")
+  if(p<0.001) txt2 <- paste("p= ", "<0.001", sep = "")
+  text(0.5, 0.4, txt2)
+}
+
+cor <- data[1:3]
+cor <- cbind(cor, data[5:6])
+pairs(cor, upper.panel = panel.cor)
+```
+

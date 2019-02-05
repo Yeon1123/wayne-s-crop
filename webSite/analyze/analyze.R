@@ -18,8 +18,8 @@ data = test[,3:5]
 time = test[,1]
 data$time = time
 data <- na.omit(data)
-str(data)
 acc <- na.omit(acc)
+
 colnames(data) = c("temperature", "humidity", "soil_humidity", "time")
 colnames(acc) = c("temperature_com", "humidity_com")
 
@@ -182,6 +182,7 @@ data$process <- List_hum()[,1]
 data$acc <- data$process + data$humidity
 
 colnames(data) = c("temperature", "humidity", "soil_humidity", "time", "process", "acc")
+
 plot(data$time, data$humidity, col="red", ylim=range(0,1))
 points(data$time, data$acc, col="blue")
 
