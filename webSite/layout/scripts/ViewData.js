@@ -29,6 +29,28 @@ function code3(){
     }
 }
 
+var click4 = 0;
+function code4(){
+    click4 += 1;
+    console.log(click4);
+    if(click4%2 == 1){
+        document.getElementsByClassName("colorscripter-code")[3].style.display="block";
+    }else{
+        document.getElementsByClassName("colorscripter-code")[3].style.display="none";
+    }
+}
+
+var click5 = 0;
+function code5(){
+    click5 += 1;
+    console.log(click5);
+    if(click5%2 == 1){
+        document.getElementsByClassName("colorscripter-code")[4].style.display="block";
+    }else{
+        document.getElementsByClassName("colorscripter-code")[4].style.display="none";
+    }
+}
+
 var clicking = 0;
 function Rcode(id){
     clicking += 1;
@@ -36,33 +58,5 @@ function Rcode(id){
         document.getElementById(id).style.display="block";
     }else{
         document.getElementById(id).style.display="none";
-    }
-}
-
-function includeHTML() {
-    var z, i, elmnt, file, xhttp;
-    /* Loop through a collection of all HTML elements: */
-    z = document.getElementsByTagName("*");
-    for (i = 0; i < z.length; i++) {
-        elmnt = z[i];
-        /*search for elements with a certain atrribute:*/
-        file = elmnt.getAttribute("../images/demo/View%20Data/accurate");
-        if (file) {
-            /* Make an HTTP request using the attribute value as the file name: */
-            xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function() {
-                if (this.readyState == 4) {
-                    if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-                    if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-                    /* Remove the attribute, and call this function once more: */
-                    elmnt.removeAttribute("../images/demo/View%20Data/accurate");
-                    includeHTML();
-                }
-            }
-            xhttp.open("GET", file, true);
-            xhttp.send();
-            /* Exit the function: */
-            return;
-        }
     }
 }

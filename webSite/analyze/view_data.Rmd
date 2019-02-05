@@ -60,16 +60,6 @@ data$acc <- data$process + data$humidity
 colnames(data) = c("temperature", "humidity", "soil_humidity", "time", "process", "acc")
 ```
 
-### histogram of current data
-```{r histogram1, warning=FALSE, echo=FALSE}
-current = data[seq(nrow(data), nrow(data)-45),]
-current = current[c(order(current$time)),]
-
-p = ggplot(data = current, aes(x=time, y=temperature))+geom_point()
-p1 = ggplot(data = current, aes(x=time, y=humidity))+geom_point()
-grid.arrange(p,p1,ncol=2)
-```
-
 ### Scatterplot Matrixes from the car Package
 ```{r sc2, warning=FALSE, echo=FALSE}
 scatterplotMatrix(~temperature+humidity+soil_humidity+process+acc, data=data, main="Three Cylinder Options")
@@ -101,11 +91,10 @@ abline(fit, col="blue")
 ### graph with current data and linear regression line with accurate data
 ```{r linear5, warning=FALSE, echo=FALSE}
 plot(humidity~temperature, data=data)
-text(35,0.3, labels=fit_acc_text)
+text(8,0.35, labels=fit_acc_text)
 abline(fit_acc, col="red")
 ```
 
-### fit current data and draw for 2nd polynomial regression
 ```{r 2nd poly1, warning=FALSE, echo=FALSE}
 fit2 <- lm(humidity~temperature+I(temperature^2), data=data)
 fit2_text <- paste0("y = ", substr(fit2$coefficients[1],1,7), " + ", substr(fit2$coefficients[2],1,7), "x", " + ", substr(fit2$coefficients[3],1,7), "x^2")
@@ -129,7 +118,6 @@ text(8,0.35, labels=fit2_acc_text)
 lines(acc$temperature_acc, fitted(fit2_acc), col="red")
 ```
 
-### fit current data and draw for 3rd polynomial regression
 ```{r 3rd poly1, warning=FALSE, echo=FALSE}
 fit3 <- lm(humidity~temperature + I(temperature^2) + I(temperature^3), data=data)
 fit3_text <- paste0("y = ", substr(fit3$coefficients[1],1,7), " + ", substr(fit3$coefficients[2],1,7), "x", " + ", substr(fit3$coefficients[3],1,7), "x^2", " + ", substr(fit3$coefficients[4],1,7), "x^3")

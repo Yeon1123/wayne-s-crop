@@ -1,0 +1,38 @@
+---
+title: "histogram of current data(45 minutes ago)"
+output: html_document
+---
+
+```{r setup1, warning=FALSE, include=FALSE}
+# library, setup
+library(ggplot2)
+library(UsingR)
+library(car)
+library(gridExtra)
+par(mar=c(1,1,1,1))
+```
+
+```{r setup2, warning=FALSE, include=FALSE}
+test = read.csv("feeds.csv",header = TRUE)
+acc = read.csv("tem_hum_com.csv", header = TRUE)
+
+test[,4] <- test[,4] * 0.01
+test[,5] <- test[,5] / 950
+data = test[,3:5]
+time = test[,1]
+data$time = time
+data <- na.omit(data)
+acc <- na.omit(acc)
+
+colnames(data) = c("temperature", "humidity", "soil_humidity", "time")
+colnames(acc) = c("temperature_acc", "humidity_acc")
+```
+
+```{r histogram1, warning=FALSE, echo=FALSE}
+current = data[seq(nrow(data), nrow(data)-45),]
+current = current[c(order(current$time)),]
+
+p = ggplot(data = current, aes(x=time, y=temperature))+geom_point()
+p1 = ggplot(data = current, aes(x=time, y=humidity))+geom_point()
+grid.arrange(p,p1,ncol=2)
+```
