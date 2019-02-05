@@ -1,0 +1,77 @@
+---
+title: "Do regression and correlation using Accurate data"
+output: html_document
+---
+
+```{r setup1, warning=FALSE, include=FALSE}
+# library, setup
+library(ggplot2)
+library(UsingR)
+library(car)
+library(gridExtra)
+par(mar=c(1,1,1,1))
+```
+
+```{r setup2, warning=FALSE, include=FALSE}
+acc = read.csv("tem_hum_com.csv", header = TRUE)
+
+acc <- na.omit(acc)
+colnames(acc) = c("temperature_acc", "humidity_acc")
+```
+
+### Scatterplot Matrixes from the car Package
+```{r scatter3, warning=FALSE, echo=FALSE}
+scatterplotMatrix(~temperature_acc+humidity_acc, data=acc, main="Three Cylinder Options")
+```
+
+```{r ggplot1, warning=FALSE, include=FALSE}
+fit_acc <- lm(humidity_acc~temperature_acc, data = acc)
+fit_acc_text <- paste0("y = ", substr(fit_acc$coefficients[1],1,7), " + ", substr(fit_acc$coefficients[2],1,7), "x")
+```
+
+### ggplot for accurate data
+```{r ggplot2, warning=FALSE, echo=FALSE}
+ggplot(data = acc, aes(x=temperature_acc, y=humidity_acc))+geom_count()+geom_smooth(method="lm") + 
+  annotate("text", label = fit_acc_text, x = 35, y = 0.3)
+```
+
+### graph with accurate data and linear regression line
+```{r linear4, warning=FALSE, echo=FALSE}
+plot(humidity_acc~temperature_acc, data=acc)
+text(35,0.3, labels=fit_acc_text)
+abline(fit_acc, col="red")
+```
+
+### fit accurate data and draw for 2nd polynomial regression
+```{r 2nd poly2, warning=FALSE, echo=FALSE}
+fit2_acc <- lm(humidity_acc~temperature_acc+I(temperature_acc^2), data=acc)
+fit2_acc_text <- paste0("y = ", substr(fit2_acc$coefficients[1],1,7), " + ", substr(fit2_acc$coefficients[2],1,7), "x", " + ", substr(fit2_acc$coefficients[3],1,7), "x^2")
+```
+
+### graph with accurate data and 2nd polynomial regression line
+```{r 2nd poly4, warning=FALSE, echo=FALSE}
+plot(humidity_acc~temperature_acc, data=acc)
+text(35,0.3, labels=fit2_acc_text)
+lines(acc$temperature_acc, fitted(fit2_acc), col="red")
+```
+
+### fit accurate data and draw for 3rd polynomial regression
+```{r 3rd poly2, warning=FALSE, echo=FALSE}
+fit3_acc <- lm(humidity_acc~temperature_acc + I(temperature_acc^2) + I(temperature_acc^3), data=acc)
+fit3_acc_text <- paste0("y = ", substr(fit3_acc$coefficients[1],1,7), " + ", substr(fit3_acc$coefficients[2],1,7), "x", " + ", substr(fit3_acc$coefficients[3],1,7), "x^2", " + ", substr(fit3_acc$coefficients[4],1,7), "x^3")
+```
+
+### graph with accurate data and 3rd polynomial regression line
+```{r 3rd poly4, warning=FALSE, echo=FALSE}
+plot(humidity_acc~temperature_acc, data=acc)
+text(35,0.3, labels=fit3_acc_text)
+lines(acc$temperature_acc, fitted(fit3_acc), col="red")
+```
+
+### made scatterplot with accurate data
+```{r scatter2, warning=FALSE, echo=FALSE}
+scatterplot(temperature_acc~humidity_acc, data=acc, pch=19,
+            spread=FALSE, smoother.args=list(lty=2),
+            main=fit_acc_text,
+            xlab="Temperature(Celsius)", ylab="Humidity(%)")
+```
