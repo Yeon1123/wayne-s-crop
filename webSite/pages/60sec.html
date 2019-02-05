@@ -2,10 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="60; URL=http:url">
+    <meta http-equiv="refresh" content="15; URL=http:url">
     <title>Title</title>
+    <SCRIPT LANGUAGE="JavaScript">
+        function start()
+        {
+
+            setInterval("alert()", 15000);
+        }
+
+        function alert()
+        {
+            location.reload();
+            window.status = " ";
+            return true;
+        }
+    </SCRIPT>
+
+    <SCRIPT LANGUAGE="JavaScript">
+        start();
+    </SCRIPT>
 </head>
 <body>
-    <iframe frameborder="0" width="703.73px" height="603.2px" scrolling="no" src="../analyze/60sec.html">View current data 45minutes ago</iframe>
+    <iframe frameborder="0" width="703.73px" height="603.2px" scrolling="no" src="../analyze/60sec.html">View current data 675seconds ago</iframe>
 </body>
 </html>

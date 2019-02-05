@@ -1,5 +1,5 @@
 ---
-title: "histogram of current data(45 minutes ago)"
+title: "histogram of current data(675 seconds ago)"
 output: html_document
 ---
 
