@@ -14,58 +14,215 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="View Data.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/View Data.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="115" column="67" selection-start-line="115" selection-start-column="67" selection-end-line="115" selection-end-column="67" />
+              <folding>
+                <element signature="e#38#293#0" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#nav#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#script#0;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#script#1;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#table#0;n#div#1;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#td#1;n#tr#0;n#table#0;n#div#1;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#td#1;n#tr#0;n#table#0;n#div#1;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#div#1;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#table#0;n#div#1;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#td#2;n#tr#0;n#table#0;n#div#1;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#table#0;n#div#2;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#68672#68845#0" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#76405#76544#0" expanded="true" />
+                <element signature="e#76569#76590#0" expanded="true" />
+                <element signature="e#76630#76651#0" expanded="true" />
+                <element signature="e#76728#76749#0" expanded="true" />
+                <element signature="e#76835#76856#0" expanded="true" />
+                <element signature="e#77070#77091#0" expanded="true" />
+                <element signature="e#77281#77302#0" expanded="true" />
+                <element signature="e#77729#77750#0" expanded="true" />
+                <element signature="e#77874#77895#0" expanded="true" />
+                <element signature="e#78054#78075#0" expanded="true" />
+                <element signature="e#78113#78134#0" expanded="true" />
+                <element signature="e#78218#78239#0" expanded="true" />
+                <element signature="e#78345#78366#0" expanded="true" />
+                <element signature="e#78462#78483#0" expanded="true" />
+                <element signature="e#78553#78574#0" expanded="true" />
+                <element signature="e#78602#78623#0" expanded="true" />
+                <element signature="e#78637#78658#0" expanded="true" />
+                <element signature="e#78681#78702#0" expanded="true" />
+                <element signature="e#80813#80819#0" expanded="true" />
+                <element signature="e#81465#81471#0" expanded="true" />
+                <element signature="e#82222#82228#0" expanded="true" />
+                <element signature="e#84149#84170#0" expanded="true" />
+                <element signature="e#84372#84393#0" expanded="true" />
+                <element signature="e#84723#84729#0" expanded="true" />
+                <element signature="e#85051#85057#0" expanded="true" />
+                <element signature="e#85057#85063#0" expanded="true" />
+                <element signature="e#85171#85177#0" expanded="true" />
+                <element signature="e#86783#86789#0" expanded="true" />
+                <element signature="e#86964#86970#0" expanded="true" />
+                <element signature="e#87318#87324#0" expanded="true" />
+                <element signature="e#87538#87544#0" expanded="true" />
+                <element signature="e#89069#89075#0" expanded="true" />
+                <element signature="e#89124#89130#0" expanded="true" />
+                <element signature="e#89130#89136#0" expanded="true" />
+                <element signature="e#89136#89142#0" expanded="true" />
+                <element signature="e#89142#89148#0" expanded="true" />
+                <element signature="e#89385#89391#0" expanded="true" />
+                <element signature="e#90622#90628#0" expanded="true" />
+                <element signature="e#91459#91465#0" expanded="true" />
+                <element signature="e#91465#91471#0" expanded="true" />
+                <element signature="e#91471#91477#0" expanded="true" />
+                <element signature="e#91477#91483#0" expanded="true" />
+                <element signature="e#92549#92555#0" expanded="true" />
+                <element signature="e#92613#92619#0" expanded="true" />
+                <element signature="e#95378#95399#0" expanded="true" />
+                <element signature="e#95881#95902#0" expanded="true" />
+                <element signature="e#98196#98202#0" expanded="true" />
+                <element signature="e#98441#98447#0" expanded="true" />
+                <element signature="e#99931#99937#0" expanded="true" />
+                <element signature="e#99937#99943#0" expanded="true" />
+                <element signature="e#99943#99949#0" expanded="true" />
+                <element signature="e#99949#99955#0" expanded="true" />
+                <element signature="e#100535#100541#0" expanded="true" />
+                <element signature="e#100825#100831#0" expanded="true" />
+                <element signature="e#102290#102296#0" expanded="true" />
+                <element signature="e#102576#102582#0" expanded="true" />
+                <element signature="e#102589#102595#0" expanded="true" />
+                <element signature="e#102708#102729#0" expanded="true" />
+                <element signature="e#103837#103843#0" expanded="true" />
+                <element signature="e#103849#103855#0" expanded="true" />
+                <element signature="e#104787#104793#0" expanded="true" />
+                <element signature="e#105059#105065#0" expanded="true" />
+                <element signature="e#106139#106145#0" expanded="true" />
+                <element signature="e#106246#106252#0" expanded="true" />
+                <element signature="e#106737#106743#0" expanded="true" />
+                <element signature="e#106844#106850#0" expanded="true" />
+                <element signature="e#107022#107028#0" expanded="true" />
+                <element signature="e#107522#107528#0" expanded="true" />
+                <element signature="e#107540#107546#0" expanded="true" />
+                <element signature="e#108053#108059#0" expanded="true" />
+                <element signature="e#109435#109441#0" expanded="true" />
+                <element signature="e#109441#109447#0" expanded="true" />
+                <element signature="e#110981#110987#0" expanded="true" />
+                <element signature="e#113001#113007#0" expanded="true" />
+                <element signature="e#113007#113013#0" expanded="true" />
+                <element signature="e#113013#113019#0" expanded="true" />
+                <element signature="e#114525#114531#0" expanded="true" />
+                <element signature="e#114531#114537#0" expanded="true" />
+                <element signature="e#114561#114567#0" expanded="true" />
+                <element signature="e#114604#114610#0" expanded="true" />
+                <element signature="e#115746#115752#0" expanded="true" />
+                <element signature="e#115869#115875#0" expanded="true" />
+                <element signature="e#116348#116354#0" expanded="true" />
+                <element signature="e#116354#116360#0" expanded="true" />
+                <element signature="e#116360#116366#0" expanded="true" />
+                <element signature="e#116366#116372#0" expanded="true" />
+                <element signature="e#116372#116378#0" expanded="true" />
+                <element signature="e#116378#116384#0" expanded="true" />
+                <element signature="e#116384#116390#0" expanded="true" />
+                <element signature="e#116390#116396#0" expanded="true" />
+                <element signature="e#117126#117132#0" expanded="true" />
+                <element signature="e#117750#117756#0" expanded="true" />
+                <element signature="e#117859#117865#0" expanded="true" />
+                <element signature="e#117865#117871#0" expanded="true" />
+                <element signature="e#117871#117877#0" expanded="true" />
+                <element signature="e#117877#117883#0" expanded="true" />
+                <element signature="e#117883#117889#0" expanded="true" />
+                <element signature="e#118148#118154#0" expanded="true" />
+                <element signature="e#118740#118746#0" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#td#1;n#tr#0;n#table#0;n#div#2;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#div#2;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#table#0;n#div#2;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#td#2;n#tr#0;n#table#0;n#div#2;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#table#0;n#div#3;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#tr#0;n#table#0;n#div#3;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#3;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#3;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#122353#122359#0" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#12;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#3;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#td#1;n#tr#0;n#table#0;n#div#3;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#td#1;n#tr#0;n#table#0;n#div#3;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#div#3;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#table#0;n#div#3;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#td#2;n#tr#0;n#table#0;n#div#3;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewData.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout/scripts/ViewData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="656">
+              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Settings.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/Settings.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="656">
+              <caret line="169" column="7" selection-start-line="169" selection-start-column="7" selection-end-line="169" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Summary Survey_3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/Summary Survey_3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="99" column="134" selection-start-line="99" selection-start-column="134" selection-end-line="99" selection-end-column="134" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout/styles/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="316" column="33" selection-start-line="316" selection-start-column="33" selection-end-line="316" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Summary Survey_2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/Summary Survey_2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="107" column="144" selection-start-line="107" selection-start-column="144" selection-end-line="107" selection-end-column="144" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Summary Survey.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/Summary Survey.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="99" column="44" lean-forward="true" selection-start-line="99" selection-start-column="44" selection-end-line="99" selection-end-column="44" />
+            <state relative-caret-position="391">
+              <caret line="107" column="120" selection-start-line="107" selection-start-column="120" selection-end-line="107" selection-end-column="120" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#3621#3629#0" expanded="true" />
-                <element signature="e#4249#4257#0" expanded="true" />
-                <element signature="e#4852#4860#0" expanded="true" />
-                <element signature="e#5455#5463#0" expanded="true" />
-                <element signature="e#6106#6113#0" expanded="true" />
-                <element signature="e#6360#6366#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Indianapolis' average annual Weather.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/Summary Survey/Indianapolis' average annual Weather.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Indianapolis' annual corn crop.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/Summary Survey/Indianapolis' annual corn crop.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1645">
-              <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoRa LoRaWAN Tutorial 1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-969">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,47 +231,11 @@
       <file leaf-file-name="LoRa LoRaWAN Tutorial 2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="92" column="147" selection-start-line="92" selection-start-column="147" selection-end-line="92" selection-end-column="147" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoRa LoRaWAN Tutorial 3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-868">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="139">
+              <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
               <folding>
-                <element signature="e#16#271#0" />
-                <element signature="n#nav#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoRa LoRaWAN Tutorial 5.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-              <folding>
-                <element signature="e#16#271#0" />
-                <element signature="n#nav#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoRa LoRaWAN Tutorial 6.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 6.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="20" column="97" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
-              <folding>
-                <element signature="n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,23 +244,12 @@
       <file leaf-file-name="LoRa LoRaWAN Tutorial 4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-445">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="158">
+              <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
               <folding>
                 <element signature="e#16#271#0" />
                 <element signature="n#nav#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Monthly average weather in Indianapolis.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/Summary Survey/Monthly average weather in Indianapolis.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="226" column="8" lean-forward="true" selection-start-line="226" selection-start-column="8" selection-end-line="228" selection-end-column="14" />
-              <folding>
                 <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -159,10 +269,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>h1</find>
       <find>qua</find>
       <find>one_quarter</find>
-      <find>post</find>
       <find>one_third</find>
       <find>lora l</find>
       <find>lora lora</find>
@@ -189,6 +297,8 @@
       <find>style=&quot;padding:0 6px; white-space:pre; line-height:130%&quot;</find>
       <find>&lt;!-- ################################################################################################ --&gt;</find>
       <find>style=&quot;line-height:130%&quot;</find>
+      <find>margin-bottom:30px</find>
+      <find>post</find>
     </findStrings>
     <replaceStrings>
       <replace>Summary Survey</replace>
@@ -203,20 +313,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorrial 1.html" />
-        <option value="$PROJECT_DIR$/pages/height.html" />
-        <option value="$PROJECT_DIR$/layout/scripts/DataAnalysis.js" />
-        <option value="$PROJECT_DIR$/images/demo/View Data/analyze.html" />
-        <option value="$PROJECT_DIR$/pages/View Current Data.html" />
-        <option value="$PROJECT_DIR$/layout/scripts/w3-include-HTML.js" />
-        <option value="$PROJECT_DIR$/layout/styles/layout.css" />
-        <option value="$PROJECT_DIR$/pages/gallery_2.html" />
-        <option value="$PROJECT_DIR$/pages/gallery.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/LCD display.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/LoRa external communication.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/LoRa_connection.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/Mini farm_the process of making.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/nailing.html" />
         <option value="$PROJECT_DIR$/pages/gallery/sawing.html" />
         <option value="$PROJECT_DIR$/pages/gallery/sensor results display on LCD.html" />
         <option value="$PROJECT_DIR$/pages/gallery/Soldering.html" />
@@ -240,20 +336,34 @@
         <option value="$PROJECT_DIR$/pages/60sec.html" />
         <option value="$PROJECT_DIR$/pages/View Data.html" />
         <option value="$PROJECT_DIR$/pages/Summary Survey_6.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey_2.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey_3.html" />
         <option value="$PROJECT_DIR$/pages/Summary Survey_4.html" />
         <option value="$PROJECT_DIR$/pages/Summary Survey_5.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/Monthly average weather in Indianapolis.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/Indianapolis' annual corn crop.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/Indianapolis' average annual Weather.html" />
         <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 1.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 2.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 3.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 4.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/Indianapolis' average annual Weather.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/Indianapolis' annual corn crop.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/Monthly average weather in Indianapolis.html" />
         <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 5.html" />
         <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 6.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 7.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 8.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 9.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 10.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 11.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 12.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 13.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 14.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 15.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 16.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 17.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 18.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 19, 20.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 3.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 2.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 4.html" />
+        <option value="$PROJECT_DIR$/layout/styles/layout.css" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey_3.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey_2.html" />
       </list>
     </option>
   </component>
@@ -267,9 +377,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -358,11 +468,11 @@
       <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\pages\Summary Survey" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\pages\Summary Survey" />
       <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\pages" />
       <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\pages\gallery" />
       <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\images\demo\gallery" />
       <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\layout\scripts" />
-      <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\images\demo\View Data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -414,18 +524,18 @@
       <workItem from="1549290220534" duration="640000" />
       <workItem from="1549341896267" duration="1388000" />
       <workItem from="1549374564421" duration="6305000" />
-      <workItem from="1549564812085" duration="3794000" />
+      <workItem from="1549564812085" duration="8839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144641000" />
+    <option name="totallyTimeSpent" value="149686000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="761" y="0" width="782" height="831" extended-state="0" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25390625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2542373" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -451,87 +561,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/demo/gallery/way_6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/licence.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/demo/backgrounds/01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/demo/backgrounds/02.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/demo/backgrounds/main_1.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/scripts/DataAnalysis.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/styles/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="334" column="34" selection-start-line="334" selection-start-column="34" selection-end-line="334" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/LCD display.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2449">
-          <caret line="136" column="7" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/LoRa external communication.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2525">
-          <caret line="138" column="7" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/LoRa_connection.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="136" column="7" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/Mini farm_the process of making.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1119">
-          <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/nailing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1195">
-          <caret line="141" column="7" selection-start-line="141" selection-start-column="7" selection-end-line="141" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/sawing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="140" column="7" selection-start-line="140" selection-start-column="7" selection-end-line="140" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/sensor results display on LCD.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2487">
-          <caret line="136" column="7" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/Soldering.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2468">
-          <caret line="135" column="7" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/gallery/temperature and moisture sensor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2487">
@@ -588,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Settings.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3211">
-          <caret line="169" column="7" selection-start-line="169" selection-start-column="7" selection-end-line="169" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4066">
@@ -646,13 +668,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/scripts/ViewCurrentData.js" />
-    <entry file="file://$PROJECT_DIR$/layout/scripts/ViewData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/gallery_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2907">
@@ -667,9 +682,256 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Eco System.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4038#4044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey_4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="150" column="39" selection-start-line="150" selection-start-column="39" selection-end-line="150" selection-end-column="39" />
+          <folding>
+            <element signature="e#5491#5498#0" expanded="true" />
+            <element signature="e#5968#5975#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey_5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="151" column="39" selection-start-line="151" selection-start-column="39" selection-end-line="151" selection-end-column="39" />
+          <folding>
+            <element signature="e#5491#5498#0" expanded="true" />
+            <element signature="e#5968#5975#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/Indianapolis' annual corn crop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+          <folding>
+            <element signature="e#16#271#0" />
+            <element signature="n#nav#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/Monthly average weather in Indianapolis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="209" column="14" selection-start-line="209" selection-start-column="14" selection-end-line="209" selection-end-column="14" />
+          <folding>
+            <element signature="e#16#271#0" />
+            <element signature="n#nav#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/Indianapolis' average annual Weather.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="116" column="14" selection-start-line="116" selection-start-column="14" selection-end-line="116" selection-end-column="14" />
+          <folding>
+            <element signature="e#16#271#0" />
+            <element signature="n#nav#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 19,20.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="81" column="26" lean-forward="true" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+          <folding>
+            <element signature="e#16#271#0" />
+            <element signature="n#nav#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="76" column="79" selection-start-line="76" selection-start-column="79" selection-end-line="76" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="76" column="54" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="76" column="69" selection-start-line="76" selection-start-column="69" selection-end-line="76" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="76" column="54" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="76" column="55" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="76" column="77" selection-start-line="76" selection-start-column="77" selection-end-line="76" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="76" column="85" selection-start-line="76" selection-start-column="85" selection-end-line="76" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="76" column="76" selection-start-line="76" selection-start-column="76" selection-end-line="76" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="76" column="83" selection-start-line="76" selection-start-column="83" selection-end-line="76" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="76" column="111" selection-start-line="76" selection-start-column="111" selection-end-line="76" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="76" column="77" selection-start-line="76" selection-start-column="77" selection-end-line="76" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 17.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="76" column="87" selection-start-line="76" selection-start-column="87" selection-end-line="76" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 19, 20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="76" column="60" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="99" column="19" lean-forward="true" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+          <folding>
+            <element signature="e#16#271#0" />
+            <element signature="n#nav#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+          <folding>
+            <element signature="e#16#271#0" />
+            <element signature="n#nav#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/View Data.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
+        <state relative-caret-position="214">
           <caret line="115" column="67" selection-start-line="115" selection-start-column="67" selection-end-line="115" selection-end-column="67" />
           <folding>
             <element signature="e#38#293#0" />
@@ -816,193 +1078,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Eco System.html">
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey_6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4038#4044#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="258">
+          <caret line="147" column="51" selection-start-line="147" selection-start-column="51" selection-end-line="147" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey_2.html">
+    <entry file="file://$PROJECT_DIR$/pages/Settings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="148" column="39" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
+        <state relative-caret-position="656">
+          <caret line="169" column="7" selection-start-line="169" selection-start-column="7" selection-end-line="169" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/scripts/ViewData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/styles/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="316" column="33" selection-start-line="316" selection-start-column="33" selection-end-line="316" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="107" column="120" selection-start-line="107" selection-start-column="120" selection-end-line="107" selection-end-column="120" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4037#4045#0" expanded="true" />
-            <element signature="e#4650#4658#0" expanded="true" />
-            <element signature="e#5247#5255#0" expanded="true" />
-            <element signature="e#5491#5498#0" expanded="true" />
-            <element signature="e#5933#5940#0" expanded="true" />
-            <element signature="e#6189#6195#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/Summary Survey_3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="148" column="39" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
+        <state relative-caret-position="228">
+          <caret line="99" column="134" selection-start-line="99" selection-start-column="134" selection-end-line="99" selection-end-column="134" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4030#4038#0" expanded="true" />
-            <element signature="e#4633#4641#0" expanded="true" />
-            <element signature="e#5236#5244#0" expanded="true" />
-            <element signature="e#5480#5487#0" expanded="true" />
-            <element signature="e#5942#5949#0" expanded="true" />
-            <element signature="e#6196#6202#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey_4.html">
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey_2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="150" column="39" selection-start-line="150" selection-start-column="39" selection-end-line="150" selection-end-column="39" />
-          <folding>
-            <element signature="e#5491#5498#0" expanded="true" />
-            <element signature="e#5968#5975#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey_5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="151" column="39" selection-start-line="151" selection-start-column="39" selection-end-line="151" selection-end-column="39" />
-          <folding>
-            <element signature="e#5491#5498#0" expanded="true" />
-            <element signature="e#5968#5975#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey_6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="147" column="51" selection-start-line="147" selection-start-column="51" selection-end-line="147" selection-end-column="51" />
-          <folding>
-            <element signature="e#5491#5498#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="99" column="44" lean-forward="true" selection-start-line="99" selection-start-column="44" selection-end-line="99" selection-end-column="44" />
+        <state relative-caret-position="390">
+          <caret line="107" column="144" selection-start-line="107" selection-start-column="144" selection-end-line="107" selection-end-column="144" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3621#3629#0" expanded="true" />
-            <element signature="e#4249#4257#0" expanded="true" />
-            <element signature="e#4852#4860#0" expanded="true" />
-            <element signature="e#5455#5463#0" expanded="true" />
-            <element signature="e#6106#6113#0" expanded="true" />
-            <element signature="e#6360#6366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/Monthly average weather in Indianapolis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="226" column="8" lean-forward="true" selection-start-line="226" selection-start-column="8" selection-end-line="228" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/Indianapolis' average annual Weather.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/Indianapolis' annual corn crop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1645">
-          <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#2;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="92" column="147" selection-start-line="92" selection-start-column="147" selection-end-line="92" selection-end-column="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#16#271#0" />
-            <element signature="n#nav#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-868">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#16#271#0" />
-            <element signature="n#nav#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#16#271#0" />
-            <element signature="n#nav#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="20" column="97" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
