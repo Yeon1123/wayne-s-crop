@@ -2,19 +2,12 @@ then <- Sys.time()
 repeat{
   now <- Sys.time()
   if(as.numeric(difftime(now, then, unit="secs") > 60)){
-    print(then)
-    print(now)
+    print("60sec")
     then <- Sys.time()
     rmarkdown::render("view_data.Rmd")
   }
-}
-
-then <- Sys.time()
-repeat{
-  now <- Sys.time()
   if(as.numeric(difftime(now, then, unit="secs") > 15)){
-    print(then)
-    print(now)
+    print("15sec")
     then <- Sys.time()
     rmarkdown::render("60sec.Rmd")
   }
