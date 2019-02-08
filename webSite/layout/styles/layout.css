@@ -313,13 +313,9 @@ input:focus, textarea:focus, *:required:focus{border-color:#96B2B6;}
 .split .box .testimonial blockquote::before{color:rgba(255,255,255,.2);}
 
 /* Post */
-.post{border: 1px solid black; height: 226px; padding:12px;}
-.post:hover{border: 2px solid rgba(0,0,0,.5); background-color: #FFDDDD;}
-.post > .img{float:left; width:30%;}
-.a{float:left; width:50%; height:200px; display:table;}
-.b{display:table-cell; vertical-align: middle}
-.post h4{font-size: 18px; color:black}
-.post p{font-size: 12px;}
+#post li{border-top: 1px solid #96B2B6; margin:0; border-bottom: 1px solid #96B2B6; height: 34px; padding:5px;}
+#post h4{font-size:15px; margin:2px;}
+#post a{font-size: 15px; color:black;}
 
 /* About */
 .about{margin:auto; padding:12px; width:100%; height: 300px}

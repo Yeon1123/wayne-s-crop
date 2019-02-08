@@ -51,6 +51,7 @@ grid.arrange(p,p1,ncol=2)
 
 ### correlation test for current data
 cor.test(data$temperature, data$humidity)
+cor.test(data$humidity, data$soil_humidity)
 
 ### correlation test for accurate data
 cor.test(acc$temperature_com, acc$humidity_com)
@@ -121,7 +122,9 @@ fit3_text <- paste0("y = ", substr(fit3$coefficients[1],1,7), " + ", substr(fit3
 ### fit accurate data and draw for 3rd polynomial regression
 fit3_com <- lm(humidity_com~temperature_com + I(temperature_com^2) + I(temperature_com^3), data=acc)
 summary(fit3_com)
-fit3_com_text <- paste0("y = ", substr(fit3_com$coefficients[1],1,7), " + ", substr(fit3_com$coefficients[2],1,7), "x", " + ", substr(fit3_com$coefficients[3],1,7), "x^2", " + ", substr(fit3_com$coefficients[4],1,7), "x^3")
+fit3_com_text <- paste0("y = ", substr(fit3_com$coefficients[1],1,7), " + ", substr(fit3_com$coefficients[2],1,7), "x", " + ", substr(fit3_com$coefficients[3],1,7), "x^2", " + ", substr(fit3_com$coefficients[4],1,7)*0.00001, "x^3")
+
+fit3_com$coefficients[4]*1000
 
 ### graph with current data and 3rd polynomial regression line
 plot(humidity~temperature, data=data)
@@ -191,6 +194,9 @@ points(data$time, data$soil_humidity, col="blue")
 str(data)
 
 plot(data$humidity, data$soil_humidity, col="red",xlim=range(0,0.5), ylim=range(0,0.5))
+
+fitt <- lm(humidity~soil_humidity, data = data)
+summary(fitt)
 
 ggplot(data = data, aes(x=humidity, y=soil_humidity))+geom_count()+geom_smooth(method="lm")
 
