@@ -9,7 +9,7 @@ df = read.csv("total_water.csv", header = TRUE)
 rownames(df) <- c("2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018")
 df
 r = c(t(as.matrix(df)))
-f = c("climate", "hand", "irrigrate")
+f = c("climate", "conventional", "irrigate")
 k = 3
 n = 9
 tm = gl(k, 1, n*k, factor(f))
@@ -17,18 +17,11 @@ blk = gl(n, k, k*n)
 av = aov(r ~ tm + blk)
 summary(av)
 
+### paired t-test
+#### Source : https://kmrho1103.tistory.com/entry/2%EC%9E%A5-%EC%A7%9D%EC%A7%80%EC%96%B4%EC%A7%84-%EB%B9%84%EA%B5%90-Paired-TTest
+
 datafile <- read.csv("add_water.csv", header = TRUE)
-colnames(datafile) <- c("system", "add_water")
+rownames(datafile) <- c("2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018")
 datafile
-datafile$system <- as.factor(datafile$system)
-tapply(datafile$add_water, datafile$system, mean)
-tapply(datafile$add_water, datafile$system, sd)
-bartlett.test(add_water~system, data=datafile)
-data.lm3 <- lm(add_water~system, data=datafile)
-anova(data.lm3)
-data.res3<-resid(data.lm3)
-shapiro.test(data.res3)
-par(mfrow=c(3,2))
-plot(data.lm3, which=1:6, las=1)
-av3=aov(data.lm3)
-TukeyHSD(av3)
+with(datafile, shapiro.test(irrigate-hand))
+with(datafile, t.test(irrigate-hand))
