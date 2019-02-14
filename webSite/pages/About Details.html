@@ -93,12 +93,12 @@ Licence URI: https://www.os-templates.com/template-terms
         <div class="content three_quarter">
 
             <h1>About Details</h1>
-            <p>We made an irrigation system with our sensor data and survey data. The introduction of this irrigation system is these.</p>
-            <p>First, we will gather temperature and humidity data with the sensor using the LoRa gateway. Also, you can see it each 15 seconds at the "Data Analysis" page. Compare temperature data and humidity data with accurate data. You can see it at the "Eco system" page. If humidity is low than accurate humidity data, The water pump open while 10 minutes. It stops for 1 day (24 hours) after operate. If you think farming is over, you can turn off the whole working at the "Settings" page. It can make farming effectively, even use waterless.
+            <p>We made an irrigation system with our sensor and survey data. Below we will break down and explain the components of this system.</p>
+            <p>The sensor gave us temperature and humidity data. The sensor communicates through the LoRa gateway and updates our data every 15 seconds as seen on the “View Data” page. We then compare this data with optimal temperature and humidity levels obtained from nongsaro.go and display this on our “Eco System” page. If the humidity is lower than the optimal level; the water pump will irrigate our plants for 10 minutes. After running for 10 minutes the pump will pause for 24 hours to let the soil absorb the moisture. When there is no need for irrigation, for example, a harvest or heavy rain, the system can be disabled in the “Settings” page. This can make farming more effective and use less water.
             </p>
-            <p>We want to compare the climate data, standard data(pour the water 20mm a week), and our irrigation system. We want to know is it statistically different. Also, what we want to know is that our irrigation system is eco-friendly (use less water) than standard farming. So, we made data with climate data(2010 ~ 2018).
+            <p>We want to compare our irrigation data against optimal levels of moisture and climate data to see if there is a noticeable improvement in crop irrigation using our system. Standard systems do not monitor the moisture content of the soil and will apply the same amount of water to a dry area as to a wet area. This is wasteful and what our system hopes to alleviate.
             </p>
-            <p>We gather data for about 9 years(2010 ~ 2018)'s highest temperature(Celsius) and rainfall(mm), and predicting how many glasses of water is needed. The climate data is just rainfall data which is not pouring water. standard data seems if we pour the water 20mm a week, the sum of the rainfall and pouring water. Irrigate data seems if we pour the water with our irrigate system. If rainfall is too much, we don't pour the water, and if rainfall is too less, we pour the water much.
+            <p>We analyzed 9 years'(2010 ~ 2018) of climate data in Indianapolis. I did a randomized block design and one-way anova design to see if it is effective and eco-friendly. The bottom of the page shows the analyzing result.
             </p>
             <br><br>
             <h1>Used Data(total water)</h1>
@@ -332,7 +332,7 @@ Licence URI: https://www.os-templates.com/template-terms
             <p style="color:black; font-family:Georgia, Times New Roman, Times, serif;">Rejects the null hypothesis that the p-value does not exceed a significant level of 0.05, so that the two data are not statistically different. Therefore, the two data are different.</p>
             <br><br>
             <h1>Conclusion</h1>
-            <p>In the light of the two results, the total amount of water received by the crops is different when the water is not given separately, when a person is given water according to the manual, and when the irrigation system is given water in consideration of temperature and humidity. Also, when people water and the irrigation system water, we can see that the irrigation system statistically reduces water, which means that our irrigation system can save agricultural water.</p>
+            <p>In light of the two results, the total amount of water received by the crops is different when the water is not given separately, when a person is given water according to the manual, and when the irrigation system is given water in consideration of temperature and humidity. When watered by and when the irrigation system is used, we can see that the irrigation system statistically reduces water waste, which means that our irrigation system can save agricultural water.</p>
         </div>
         <!-- / main body -->
         <div class="clear"></div>
