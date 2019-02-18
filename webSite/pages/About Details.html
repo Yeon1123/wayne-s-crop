@@ -49,7 +49,7 @@ Licence URI: https://www.os-templates.com/template-terms
                             <li><a href="Data%20Analysis.html">Data Analysis</a></li>
                             <li><a href="Eco%20System.html">Eco System</a></li>
                             <li><a href="About%20Details.html">About Details</a></li>
-                            <li><a href="Settings.html">Settings</a></li>
+                            <li><a href="Settings.jsp">Settings</a></li>
                         </ul>
                     </li>
                     <li><a href="gallery.html">Gallery</a></li>
@@ -83,7 +83,7 @@ Licence URI: https://www.os-templates.com/template-terms
                             <li><a href="Data%20Analysis.html">Data Analysis</a></li>
                             <li><a href="Eco%20System.html">Eco System</a></li>
                             <li><a href="About%20Details.html">About Details</a></li>
-                            <li><a href="Settings.html">Settings</a></li>
+                            <li><a href="Settings.jsp">Settings</a></li>
                         </ul>
                     </li>
                     <li><a href="gallery.html">Gallery</a></li>
@@ -96,10 +96,11 @@ Licence URI: https://www.os-templates.com/template-terms
             <p>We made an irrigation system with our sensor data and survey data. The introduction of this irrigation system is these.</p>
             <p>First, we will gather temperature and humidity data with the sensor using the LoRa gateway. Also, you can see it each 15 seconds at the "Data Analysis" page. Compare temperature data and humidity data with accurate data. You can see it at the "Eco system" page. If humidity is low than accurate humidity data, The water pump open while 10 minutes. It stops for 1 day (24 hours) after operate. If you think farming is over, you can turn off the whole working at the "Settings" page. It can make farming effectively, even use waterless.
             </p>
-            <p>We want to compare the climate data, conventional data(pour the water 20mm a week), and our irrigation system. We want to know is it statistically different. Also, what we want to know is that our irrigation system is eco-friendly (use less water) than conventional farming. So, we made data with climate data(2010 ~ 2018).
+            <p>We want to compare the climate data, standard data(pour the water 20mm a week), and our irrigation system. We want to know is it statistically different. Also, what we want to know is that our irrigation system is eco-friendly (use less water) than standard farming. So, we made data with climate data(2010 ~ 2018).
             </p>
-            <p>We gather data for about 9 years(2010 ~ 2018)'s highest temperature(Celsius) and rainfall(mm), and predicting how many glasses of water is needed. The climate data is just rainfall data which is not pouring water. Conventional data seems if we pour the water 20mm a week, the sum of the rainfall and pouring water. Irrigate data seems if we pour the water with our irrigate system. If rainfall is too much, we don't pour the water, and if rainfall is too less, we pour the water much.
+            <p>We gather data for about 9 years(2010 ~ 2018)'s highest temperature(Celsius) and rainfall(mm), and predicting how many glasses of water is needed. The climate data is just rainfall data which is not pouring water. standard data seems if we pour the water 20mm a week, the sum of the rainfall and pouring water. Irrigate data seems if we pour the water with our irrigate system. If rainfall is too much, we don't pour the water, and if rainfall is too less, we pour the water much.
             </p>
+            <br><br>
             <h1>Used Data(total water)</h1>
             <div class="scrollable">
                 <table>
@@ -107,7 +108,7 @@ Licence URI: https://www.os-templates.com/template-terms
                     <tr>
                         <th></th>
                         <th style="width:191.2px">climate</th>
-                        <th style="width:191.2px">conventional</th>
+                        <th style="width:191.2px">standard</th>
                         <th style="width:191.2px">irrigate</th>
                     </tr>
                     </thead>
@@ -169,11 +170,11 @@ Licence URI: https://www.os-templates.com/template-terms
                     </tbody>
                 </table>
             </div>
-            <p></p>
+            <br><br>
             <h1>Randomized Block Design ANOVA</h1>
             <p>Block : 9 year(2010 ~ 2018)<br>
                 treatment 1 : climate<br>
-                treatment 2 : conventional<br>
+                treatment 2 : standard<br>
                 treatment 3 : irrigation</p>
             <p>Design :</p>
             <table class="analyze">
@@ -199,7 +200,7 @@ Licence URI: https://www.os-templates.com/template-terms
                     <td><a href="https://www.codecogs.com/eqnedit.php?latex=\overline{x_{1\cdot}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\overline{x_{1\cdot}}" title="\overline{x_{1\cdot}}" /></a></td>
                 </tr>
                 <tr>
-                    <th>conventional</th>
+                    <th>standard</th>
                     <td><a href="https://www.codecogs.com/eqnedit.php?latex=x_{21}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_{21}" title="x_{21}" /></a></td>
                     <td><a href="https://www.codecogs.com/eqnedit.php?latex=x_{22}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_{22}" title="x_{22}" /></a></td>
                     <td>&hellip;</td>
@@ -265,7 +266,73 @@ Licence URI: https://www.os-templates.com/template-terms
             <p><a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;\Leftrightarrow&space;\sum_{i}^{3}\sum_{j}^{9}(x_{ij}-\overline{x})^{2}&space;=&space;9\sum_{i}^{3}(\overline{x_{i\cdot}}-\overline{x})^2&plus;3\sum_{j}^{9}(\overline{x_{\cdot&space;j}}&space;-&space;\overline{x})^2&plus;&space;\sum_{i}^{3}\sum_{j}^{9}(x_{ij}-\overline{x_{i\cdot}}&space;-&space;\overline{x_{i\cdot}}&plus;\overline{x})^{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\small&space;\Leftrightarrow&space;\sum_{i}^{3}\sum_{j}^{9}(x_{ij}-\overline{x})^{2}&space;=&space;9\sum_{i}^{3}(\overline{x_{i\cdot}}-\overline{x})^2&plus;3\sum_{j}^{9}(\overline{x_{\cdot&space;j}}&space;-&space;\overline{x})^2&plus;&space;\sum_{i}^{3}\sum_{j}^{9}(x_{ij}-\overline{x_{i\cdot}}&space;-&space;\overline{x_{i\cdot}}&plus;\overline{x})^{2}" title="\small \Leftrightarrow \sum_{i}^{3}\sum_{j}^{9}(x_{ij}-\overline{x})^{2} = 9\sum_{i}^{3}(\overline{x_{i\cdot}}-\overline{x})^2+3\sum_{j}^{9}(\overline{x_{\cdot j}} - \overline{x})^2+ \sum_{i}^{3}\sum_{j}^{9}(x_{ij}-\overline{x_{i\cdot}} - \overline{x_{i\cdot}}+\overline{x})^{2}" /></a></p>
             <p style="color:black; font-family:Georgia, Times New Roman, Times, serif;">&emsp;&emsp;&emsp;&emsp;SST&emsp;&emsp;&emsp;=&emsp;&emsp;&emsp;&emsp;SSA&nbsp;&emsp;
                 +&emsp;&emsp;SSB&emsp;&emsp;&nbsp;+&emsp;&emsp;&emsp;&emsp;&emsp;SSE</p>
-
+            <p>Result :</p>
+            <table class="analyze">
+                <tr>
+                    <th></th>
+                    <th>df</th>
+                    <th>Sum Sq</th>
+                    <th>Mean sq</th>
+                    <th>F value</th>
+                    <th>Pr(>F)</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>treatment</th>
+                    <td>2</td>
+                    <td>262853</td>
+                    <td>131427</td>
+                    <td>64.48</td>
+                    <td>2.20e-08</td>
+                    <td>***</td>
+                </tr>
+                <tr>
+                    <th>block</th>
+                    <td>8</td>
+                    <td>325683</td>
+                    <td>40710</td>
+                    <td>19.97</td>
+                    <td>6.04e-07</td>
+                    <td>***</td>
+                </tr>
+                <tr>
+                    <th>Residuals</th>
+                    <td>16</td>
+                    <td>32613</td>
+                    <td>2038</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <p style="color:black; font-family:Georgia, Times New Roman, Times, serif;">Since p-value is less than the significant level of 0.05, reject the null hypothesis of "the amount of water in three treatment is equal".</p>
+            <br><br>
+            <h1>One-way ANOVA</h1>
+            <p>Data :</p>
+            <p><a href="https://www.codecogs.com/eqnedit.php?latex=(x_{11},&space;x_{21}),...,(x_{19},&space;x_{29})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(x_{11},&space;x_{21}),...,(x_{19},&space;x_{29})" title="(x_{11}, x_{21}),...,(x_{19}, x_{29})" /></a> (Note that the two samples are not independent of each other)</p>
+            <p>Difference :</p>
+            <p><a href="https://www.codecogs.com/eqnedit.php?latex=d_{i}&space;=&space;x_{1i}&space;-&space;x_{2i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d_{i}&space;=&space;x_{1i}&space;-&space;x_{2i}" title="d_{i} = x_{1i} - x_{2i}" /></a></p>
+            <p>Normality Test's Hypothesis :</p>
+            <p><a href="https://www.codecogs.com/eqnedit.php?latex=H_{0}&space;=&space;d_{1},...,d_{9}&space;\sim&space;N(\delta&space;,\sigma&space;_{\delta&space;}^{2})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_{0}&space;=&space;d_{1},...,d_{9}&space;\sim&space;N(\delta&space;,\sigma&space;_{\delta&space;}^{2})" title="H_{0} = d_{1},...,d_{9} \sim N(\delta ,\sigma _{\delta }^{2})" /></a>&emsp;<a href="https://www.codecogs.com/eqnedit.php?latex=(\delta&space;\equiv&space;\mu&space;_{1}-\mu&space;_{2})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(\delta&space;\equiv&space;\mu&space;_{1}-\mu&space;_{2})" title="(\delta \equiv \mu _{1}-\mu _{2})" /></a></p>
+            <p>Shapiro-Wilk normality test's Result :</p>
+            <p style="color:black; font-family:Georgia, Times New Roman, Times, serif;">W = 0.90207, p-value = 0.2643</p>
+            <p style="color:black; font-family:Georgia, Times New Roman, Times, serif;">Since p-value is above a significant level of 0.05, there is not sufficient statistical evidence to support the hypothesis that the data do not follow a normal distribution. Therefore, the data are normally distributed.</p>
+            <p>Hypothesis :</p>
+            <p><a href="https://www.codecogs.com/eqnedit.php?latex=H_{0}&space;:&space;\delta&space;=\delta&space;_{0}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_{0}&space;:&space;\delta&space;=\delta&space;_{0}" title="H_{0} : \delta =\delta _{0}" /></a></p>
+            <p>Test statistic :</p>
+            <p style="color:black; font-family:Georgia, Times New Roman, Times, serif;"><a href="https://www.codecogs.com/eqnedit.php?latex=T&space;=&space;\frac{\overline{d}-\delta&space;_{0}}{s_{d}/\sqrt{n}}&space;\sim&space;t(n-1)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T&space;=&space;\frac{\overline{d}-\delta&space;_{0}}{s_{d}/\sqrt{n}}&space;\sim&space;t(n-1)" title="T = \frac{\overline{d}-\delta _{0}}{s_{d}/\sqrt{n}} \sim t(n-1)" /></a>&emsp;(When <a href="https://www.codecogs.com/eqnedit.php?latex=H_{0}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_{0}" title="H_{0}" /></a> is true)</p>
+            <p>Result :</p>
+            <p style="color:black; font-family:Georgia, Times New Roman, Times, serif;">t = -5.5504, df = 8, p-value = 0.0005407<br>
+                95 percent confidence interval:<br>
+                -204.78358&emsp;-84.56753<br>
+                sample estimates:<br>
+                mean of x<br>
+                -144.6756
+            </p>
+            <p style="color:black; font-family:Georgia, Times New Roman, Times, serif;">Rejects the null hypothesis that the p-value does not exceed a significant level of 0.05, so that the two data are not statistically different. Therefore, the two data are different.</p>
+            <br><br>
+            <h1>Conclusion</h1>
+            <p>In the light of the two results, the total amount of water received by the crops is different when the water is not given separately, when a person is given water according to the manual, and when the irrigation system is given water in consideration of temperature and humidity. Also, when people water and the irrigation system water, we can see that the irrigation system statistically reduces water, which means that our irrigation system can save agricultural water.</p>
         </div>
         <!-- / main body -->
         <div class="clear"></div>
@@ -273,7 +340,7 @@ Licence URI: https://www.os-templates.com/template-terms
 </div>
 <div class="wrapper row5">
     <div id="copyright" class="hoc clear">
-        <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="../index.html">Wayne's Crop</a></p>
+        <p class="fl_left">Copyright &copy; 2019 - All Rights Reserved - <a href="../index.html">Wayne's Crop</a></p>
         <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
     </div>
 </div>
