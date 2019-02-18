@@ -14,105 +14,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="View Data.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/View Data.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9766">
-              <caret line="395" column="54" selection-start-line="395" selection-start-column="54" selection-end-line="395" selection-end-column="54" />
+            <state relative-caret-position="665">
+              <caret line="137" column="34" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="About.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/About.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3971">
-              <caret line="209" column="11" selection-start-line="209" selection-start-column="11" selection-end-line="209" selection-end-column="11" />
+            <state relative-caret-position="132">
+              <caret line="95" column="16" selection-start-line="95" selection-start-column="12" selection-end-line="104" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Summary Survey_3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/Summary Survey_3.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Settings.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/Settings.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2546">
-              <caret line="134" column="50" selection-start-line="134" selection-start-column="50" selection-end-line="134" selection-end-column="50" />
+            <state relative-caret-position="2660">
+              <caret line="140" column="31" lean-forward="true" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Data Analysis.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/Data Analysis.html">
+      <file leaf-file-name="Gallery_2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/Gallery_2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3135">
-              <caret line="165" column="19" selection-start-line="165" selection-start-column="19" selection-end-line="165" selection-end-column="19" />
+            <state relative-caret-position="390">
+              <caret line="105" column="107" selection-start-line="105" selection-start-column="107" selection-end-line="105" selection-end-column="107" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Indianapolis' annual corn crop.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/Summary Survey/Indianapolis' annual corn crop.html">
+      <file leaf-file-name="distance sensor.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/gallery/distance sensor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1482">
-              <caret line="78" column="14" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="38" />
+            <state relative-caret-position="-557">
+              <caret line="69" column="61" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallery_2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/gallery_2.html">
+      <file leaf-file-name="k-sw-square.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/gallery/k-sw-square.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2489">
-              <caret line="131" column="50" selection-start-line="131" selection-start-column="50" selection-end-line="131" selection-end-column="50" />
+            <state relative-caret-position="437">
+              <caret line="77" column="61" selection-start-line="77" selection-start-column="61" selection-end-line="77" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="About Details.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/About Details.html">
+      <file leaf-file-name="Gallery.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/Gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="96" column="712" selection-start-line="96" selection-start-column="712" selection-end-line="96" selection-end-column="712" />
-              <folding>
-                <element signature="e#16#271#0" />
-                <element signature="e#5545#5566#0" expanded="true" />
-                <element signature="e#5608#5629#0" expanded="true" />
-                <element signature="e#5672#5693#0" expanded="true" />
-                <element signature="e#8184#8204#0" expanded="true" />
-                <element signature="e#8242#8262#0" expanded="true" />
-                <element signature="e#8300#8308#1" expanded="true" />
-                <element signature="e#8338#8358#0" expanded="true" />
-                <element signature="e#8396#8416#0" expanded="true" />
-                <element signature="e#8453#8473#0" expanded="true" />
-                <element signature="e#9007#9015#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="-703">
+              <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Summary Survey_2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/Summary Survey_2.html">
+      <file leaf-file-name="instruments_mini.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/gallery/instruments_mini.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2565">
-              <caret line="135" column="50" selection-start-line="135" selection-start-column="50" selection-end-line="135" selection-end-column="50" />
+            <state relative-caret-position="925">
+              <caret line="67" column="61" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Settings.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/Settings.html">
+      <file leaf-file-name="farm solar light.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/gallery/farm solar light.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2945">
-              <caret line="155" column="50" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Summary Survey.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/Summary Survey.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2527">
-              <caret line="133" column="50" selection-start-line="133" selection-start-column="50" selection-end-line="133" selection-end-column="50" />
+            <state relative-caret-position="361">
+              <caret line="67" column="61" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -174,57 +157,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/gallery/distance sensor.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/farm solar light.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/instruments_mini.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/k-sw-square.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/LCD display.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/LoRa external communication.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/LoRa_connection.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/Mini farm_the process of making.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/nailing.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/sawing.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/sensor results display on LCD.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/Soldering.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/temperature and moisture sensor.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/temperature sensor.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/use long hose.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/use 9V machine.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/valve and irrigation system.html" />
-        <option value="$PROJECT_DIR$/pages/gallery/wayne's crop.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/Indianapolis' annual corn crop.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/Indianapolis' average annual Weather.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 1.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 2.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 3.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 4.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 5.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 6.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 7.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 8.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 9.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 10.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 11.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 12.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 13.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 14.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 15.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 16.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 17.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 18.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 19, 20.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey/Monthly average weather in Indianapolis.html" />
-        <option value="$PROJECT_DIR$/pages/About.html" />
-        <option value="$PROJECT_DIR$/pages/Eco System.html" />
-        <option value="$PROJECT_DIR$/pages/gallery_2.html" />
-        <option value="$PROJECT_DIR$/pages/Settings.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey.html" />
         <option value="$PROJECT_DIR$/pages/Summary Survey_2.html" />
-        <option value="$PROJECT_DIR$/pages/Summary Survey_3.html" />
-        <option value="$PROJECT_DIR$/pages/View Data.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey.html" />
+        <option value="$PROJECT_DIR$/pages/Significance &amp; Statistics.html" />
+        <option value="$PROJECT_DIR$/pages/My Farm's Climate.html" />
+        <option value="$PROJECT_DIR$/pages/Gallery.html" />
+        <option value="$PROJECT_DIR$/pages/Crop Guide.html" />
+        <option value="$PROJECT_DIR$/pages/Corn's Accurate Climate.html" />
+        <option value="$PROJECT_DIR$/pages/Gallery_2.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/Monthly average weather in Indianapolis.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 19, 20.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 18.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 17.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 16.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 15.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 14.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 13.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 12.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 11.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 10.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 9.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 8.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 7.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 6.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 5.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 4.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 3.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 2.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 1.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/Indianapolis' average annual Weather.html" />
+        <option value="$PROJECT_DIR$/pages/Summary Survey/Indianapolis' annual corn crop.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/wayne's crop.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/valve working.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/valve and irrigation system.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/use 9V machine.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/use long hose.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/Soldering.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/sensor results display on LCD.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/sawing.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/plant grow.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/nailing.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/Mini farm_the process of making.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/LoRa_connection.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/LoRa external communication.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/LCD display.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/k-sw-square.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/instruments_mini.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/farm solar light.html" />
+        <option value="$PROJECT_DIR$/pages/gallery/distance sensor.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/pages/Data Analysis.html" />
-        <option value="$PROJECT_DIR$/pages/About Details.html" />
+        <option value="$PROJECT_DIR$/pages/About.html" />
+        <option value="$PROJECT_DIR$/pages/Settings.jsp" />
       </list>
     </option>
   </component>
@@ -237,10 +220,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -271,31 +254,7 @@
               <item name="webSite" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="backgrounds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webSite" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="gallery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webSite" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webSite" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webSite" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webSite" type="b2602c69:ProjectViewProjectNode" />
@@ -328,19 +287,19 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\images\demo\backgrounds" />
+      <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\pages\gallery" />
+      <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\pages\Summary Survey" />
+      <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\pages" />
+      <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\images\demo\gallery" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\images\demo\gallery" />
       <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\images\demo\backgrounds" />
       <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\images\demo\Data Analysis" />
       <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\images\demo\Summary Survey" />
       <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\pages\Summary Survey" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\pages\gallery" />
-      <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\pages\Summary Survey" />
-      <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\pages" />
-      <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\images\demo\gallery" />
-      <recent name="C:\Users\PandoraBox\Desktop\2018\2018_winter\wayne-s-crop\webSite\layout\scripts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -396,18 +355,19 @@
       <workItem from="1549635081152" duration="16512000" />
       <workItem from="1549840259892" duration="26000" />
       <workItem from="1549897849279" duration="7557000" />
-      <workItem from="1550182919690" duration="709000" />
+      <workItem from="1550182919690" duration="914000" />
+      <workItem from="1550262719117" duration="1574000" />
+      <workItem from="1550504957478" duration="5827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175086000" />
+    <option name="totallyTimeSpent" value="182692000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="761" y="0" width="782" height="831" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25390625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19596355" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -433,373 +393,370 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/gallery/instruments_mini.html">
+    <entry file="file://$PROJECT_DIR$/pages/Significance &amp; Statistics.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+        <state relative-caret-position="456">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="e#16#271#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/k-sw-square.html">
+    <entry file="file://$PROJECT_DIR$/pages/Crop Guide.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="106" column="50" selection-start-line="106" selection-start-column="50" selection-end-line="106" selection-end-column="50" />
+        <state relative-caret-position="342">
+          <caret line="39" column="72" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/LCD display.html">
+    <entry file="file://$PROJECT_DIR$/pages/Corn's Accurate Climate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="122" column="50" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
+        <state relative-caret-position="740">
+          <caret line="40" column="72" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/LoRa external communication.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="124" column="50" selection-start-line="124" selection-start-column="50" selection-end-line="124" selection-end-column="50" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/pages/Control.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/LoRa_connection.html">
+    <entry file="file://$PROJECT_DIR$/pages/My Farm's Climate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="122" column="50" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/Mini farm_the process of making.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="123" column="50" selection-start-line="123" selection-start-column="50" selection-end-line="123" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/nailing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="127" column="50" selection-start-line="127" selection-start-column="50" selection-end-line="127" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/sawing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="126" column="50" selection-start-line="126" selection-start-column="50" selection-end-line="126" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/sensor results display on LCD.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="122" column="50" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/Soldering.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="121" column="50" selection-start-line="121" selection-start-column="50" selection-end-line="121" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/temperature and moisture sensor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="122" column="50" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/temperature sensor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="122" column="50" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/use long hose.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="122" column="50" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/use 9V machine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="122" column="50" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/valve and irrigation system.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="122" column="50" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery/wayne's crop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="125" column="50" selection-start-line="125" selection-start-column="50" selection-end-line="125" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/Indianapolis' average annual Weather.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="122" column="54" selection-start-line="122" selection-start-column="54" selection-end-line="122" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="112" column="54" selection-start-line="112" selection-start-column="54" selection-end-line="112" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="94" column="54" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="112" column="54" selection-start-line="112" selection-start-column="54" selection-end-line="112" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="90" column="54" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="95" column="54" selection-start-line="95" selection-start-column="54" selection-end-line="95" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="88" column="54" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="88" column="54" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="88" column="54" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="88" column="54" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="88" column="54" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="88" column="54" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 12.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="88" column="54" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="88" column="54" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 14.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="88" column="54" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 15.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="89" column="54" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 16.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="88" column="54" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 17.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="89" column="54" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 18.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="88" column="54" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 19, 20.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="88" column="54" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
+        <state relative-caret-position="399">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="36" selection-end-column="72" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#table#0;n#div#0;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#table#0;n#div#1;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#table#0;n#div#2;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#table#0;n#div#3;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#table#0;n#div#4;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#0;n#table#0;n#div#4;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#td#0;n#tr#0;n#table#0;n#div#4;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#td#0;n#tr#0;n#table#0;n#div#4;n#div#1;n#main#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/Summary Survey/Monthly average weather in Indianapolis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="215" column="54" selection-start-line="215" selection-start-column="54" selection-end-line="215" selection-end-column="54" />
+        <state relative-caret-position="646">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/60sec.html">
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 19, 20.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        <state relative-caret-position="569">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/About.html">
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 18.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="203" column="54" selection-start-line="203" selection-start-column="54" selection-end-line="203" selection-end-column="54" />
+        <state relative-caret-position="341">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Eco System.html">
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 17.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="111" column="54" selection-start-line="111" selection-start-column="54" selection-end-line="111" selection-end-column="54" />
+        <state relative-caret-position="322">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery.html">
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 16.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="131" column="50" selection-start-line="131" selection-start-column="50" selection-end-line="131" selection-end-column="50" />
+        <state relative-caret-position="569">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gallery_2.html">
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 15.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2489">
-          <caret line="131" column="50" selection-start-line="131" selection-start-column="50" selection-end-line="131" selection-end-column="50" />
+        <state relative-caret-position="589">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Settings.html">
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 14.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2945">
-          <caret line="155" column="50" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="50" />
+        <state relative-caret-position="646">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey.html">
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 13.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2527">
-          <caret line="133" column="50" selection-start-line="133" selection-start-column="50" selection-end-line="133" selection-end-column="50" />
+        <state relative-caret-position="646">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey_2.html">
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 12.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2565">
-          <caret line="135" column="50" selection-start-line="135" selection-start-column="50" selection-end-line="135" selection-end-column="50" />
+        <state relative-caret-position="646">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Summary Survey_3.html">
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 11.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2546">
-          <caret line="134" column="50" selection-start-line="134" selection-start-column="50" selection-end-line="134" selection-end-column="50" />
+        <state relative-caret-position="646">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/View Data.html">
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9766">
-          <caret line="395" column="54" selection-start-line="395" selection-start-column="54" selection-end-line="395" selection-end-column="54" />
+        <state relative-caret-position="646">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 9.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3971">
-          <caret line="209" column="11" selection-start-line="209" selection-start-column="11" selection-end-line="209" selection-end-column="11" />
+        <state relative-caret-position="646">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="48" column="78" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/LoRa LoRaWAN Tutorial 1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey/Indianapolis' average annual Weather.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/Summary Survey/Indianapolis' annual corn crop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="78" column="14" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="38" />
+        <state relative-caret-position="646">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Data Analysis.html">
+    <entry file="file://$PROJECT_DIR$/pages/gallery/wayne's crop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3135">
-          <caret line="165" column="19" selection-start-line="165" selection-start-column="19" selection-end-line="165" selection-end-column="19" />
+        <state relative-caret-position="741">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/About Details.html">
+    <entry file="file://$PROJECT_DIR$/pages/gallery/valve working.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="96" column="712" selection-start-line="96" selection-start-column="712" selection-end-line="96" selection-end-column="712" />
-          <folding>
-            <element signature="e#16#271#0" />
-            <element signature="e#5545#5566#0" expanded="true" />
-            <element signature="e#5608#5629#0" expanded="true" />
-            <element signature="e#5672#5693#0" expanded="true" />
-            <element signature="e#8184#8204#0" expanded="true" />
-            <element signature="e#8242#8262#0" expanded="true" />
-            <element signature="e#8300#8308#1" expanded="true" />
-            <element signature="e#8338#8358#0" expanded="true" />
-            <element signature="e#8396#8416#0" expanded="true" />
-            <element signature="e#8453#8473#0" expanded="true" />
-            <element signature="e#9007#9015#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="646">
+          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/valve and irrigation system.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/use 9V machine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/use long hose.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/Soldering.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/sensor results display on LCD.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/sawing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/plant grow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/nailing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/Mini farm_the process of making.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="83" column="61" selection-start-line="83" selection-start-column="61" selection-end-line="83" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/LoRa_connection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="83" column="61" selection-start-line="83" selection-start-column="61" selection-end-line="83" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/LoRa external communication.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="83" column="61" selection-start-line="83" selection-start-column="61" selection-end-line="83" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/LCD display.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="80" column="61" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/k-sw-square.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="77" column="61" selection-start-line="77" selection-start-column="61" selection-end-line="77" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/instruments_mini.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="67" column="61" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/farm solar light.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="67" column="61" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/distance sensor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-557">
+          <caret line="69" column="61" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-703">
+          <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Gallery_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="105" column="107" selection-start-line="105" selection-start-column="107" selection-end-line="105" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="137" column="34" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/About.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="95" column="16" selection-start-line="95" selection-start-column="12" selection-end-line="104" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Summary Survey_3.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Settings.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2660">
+          <caret line="140" column="31" lean-forward="true" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
         </state>
       </provider>
     </entry>
